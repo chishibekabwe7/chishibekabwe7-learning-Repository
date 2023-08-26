@@ -1,0 +1,30 @@
+.sidebar{
+    position: absolute;
+    top: 130px;
+    left: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+    height: 3000px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: rgb(238, 233, 233);
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+}
+.sidebar-head{
+    width: 235;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.sidebar-blocks{
+    width: 235;
+    height: 23px;
+    padding-left: 10px;
+}
+.sidebar-blocks:hover{
+    background-color: lightgrey;
+}
