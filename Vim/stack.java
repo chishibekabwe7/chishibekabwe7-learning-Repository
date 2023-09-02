@@ -48,8 +48,9 @@ public class stack{
     // 3. backtracking
     // 4. calling functions(call stack)
     
-
-     
+    
+    //new change
+    
 
 
 

@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.audio-1{
+    width: 500px;
+    height:30px;
+    margin-bottom: 80px;
+    
+}
+.button{
+    padding-top: 9px;
+    padding-left: 21px;
+    padding-bottom: 9px;
+    padding-right: 21px;
+    background-color: rgb(214, 20, 214);
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 4px;
+    transition: 0.8s;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    margin-top: 20px; }
+
+     .button:hover{ 
+        cursor: pointer; background-color: deeppink; box-shadow: 1px 10px 30px rgba(236, 39, 148,0.8); 
+    }
+    .button-1{
+    padding-top: 9px;
+    padding-left: 21px;
+    padding-bottom: 9px;
+    padding-right: 21px;
+    background-color: rgb(214, 20, 214);
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 4px;
+    transition: 0.8s;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    margin-top: 20px;
+ }
+    .button-1:hover{
+         cursor: pointer; background-color: deeppink; box-shadow: 1px 10px 30px rgba(236, 39, 148,0.8); 
+    }
