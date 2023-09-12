@@ -25,6 +25,8 @@ const products = [{
     },
     priceCents:799
 }];
+
+  
 products.forEach(
     (products) => {
         const html = `
@@ -35,19 +37,19 @@ products.forEach(
                 </div>
 
                 <div class="product-name limit-text-to-2-lines">
-                Black and Gray Athletic Cotton Socks - 6 Pairs
+                ${products.name}
                 </div>
 
                 <div class="product-rating-container">
                 <img class="product-rating-stars"
-                    src="images/ratings/rating-45.png">
+                    src="images/ratings/rating-${products.rating.stars * 10}.png">
                 <div class="product-rating-count link-primary">
-                    87
+                    ${products.rating.count}
                 </div>
                 </div>
 
                 <div class="product-price">
-                $10.90
+                ${products.priceCents / 100}
                 </div>
 
                 <div class="product-quantity-container">
