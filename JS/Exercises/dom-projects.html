@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .Exercise4-text{
+            font-size: 30px;
+            color: darkgray;
+        }
+    </style>
+    <link rel="stylesheet" href="/Bootstrap/Compiled version/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Project</title>
+</head>
+<body>
+    <h1>Exercise 1(a)</h1>
+    <!--Project-1(a)-->
+    <p class="Exercise4-text">Subscribe to the Channel</p>
+    <button
+    onclick="subscribe()" class="btn btn-danger js-Subscribe-button">Subscribe</button>
+    <br>
+    <br>
+    <br>
+
+    <!--Project-1(b)-->
+    <h1>Exercise 1(b)</h1>
+    <p class="Exercise4-text ">UnSubscribed to the Channel</p>
+    <button onclick="func1" class="btn btn-danger js-button1b">Unsubscribe</button>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Exercise 2</h1>
+
+
+    <!--Project-2-->
+    <button class="btn btn-outline-info js-9b-button">9b</button>
+    <br>
+    <br>
+    <br>
+
+
+    <h1>Exercise 3</h1>
+    <!--Project-3-->
+    <button id="headsButton" class="btn btn-outline-warning">heads</button>
+    <button id="tailsButton" class="btn btn-outline-warning">tails</button>
+    <p id="result" class="Exercise4-text">You chose:</p>
+     
+    <br>
+    <br>
+    <h1>Exercise 4</h1>
+    <!--Project-4-->
+    <button id="subscribe" class="btn btn-danger">Subscribe</button>
+    <button id="Unsubscribe" class="btn btn-danger">Unsubscribe</button>
+    <br>
+    <p class="Exercise4-text" id="textOutput"></p>
+</body>
+<script>
+    //Project-1(a)
+        function subscribe() {
+         const subscribeButton = document.querySelector('.js-Subscribe-button');
+         if(subscribeButton.innerHTML === 'Subscribe'){
+            subscribeButton.innerHTML = 'Subscribed';
+         }
+         else{
+            subscribeButton.innerHTML = 'Subscribe';
+         }
+    }
+     
+    //Project-1(b)    
+    function func1() {
+        const Unsubscribe1b = document.querySelector('.js-button1b');
+    if(Unsubscribe1b.innerHTML === 'Unsubscribe'){
+       Unsubscribe1b.innerHTML = 'Subscribe';
+    }
+    else{
+        Unsubscribe1b.innerHTML = 'Unsubscribed';
+    }
+
+    };
+   
+
+    //Project-2
+    const Button9b = document.querySelector('.js-9b-button');
+    Button9b.innerHTML = '9b done';
+
+    //Project-3
+    const headsButton = document.getElementById('headsButton');
+    const tailsButton = document.getElementById('tailsButton');
+    const resultParagraph= document.getElementById('result');
+
+    headsButton.addEventListener('click',()=>{
+        resultParagraph.textContent = 'You chose: heads'
+    }) 
+    
+    tailsButton.addEventListener('click',()=>{
+        resultParagraph.textContent = 'You chose: tails'
+    })
+
+    //Project-4
+    const subscribeButton1 =document.getElementById('subscribe');
+    const unsubscribeButton =document.getElementById('Unsubscribe');
+    const textOutput1 = document.getElementById('textOutput');
+
+
+    subscribeButton1.addEventListener('click',()=> {
+    textOutput1.textContent = 'You have Subscibed to the channel'
+    })
+
+    unsubscribeButton.addEventListener('click',()=>{
+        textOutput1.textContent = 'You have UnSubscribed to the channel' 
+    })
+
+
+</script>
+</body>
+</html>
