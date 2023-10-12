@@ -1,0 +1,36 @@
+.Navigation-bar{
+    background-color: rgb(8, 4, 8);
+    color: white;
+    display: flex;
+    height: 55px;
+    align-items: center;
+    justify-content: space-around;
+}
+.title{
+font-size: 35px;
+color: rgb(247, 247, 247);
+margin-left: 10px;
+margin-right: 600px;
+
+}
+.links{
+    color: grey;
+}
+.container-1{
+    font-size: 45px;
+    background-color: white;
+    height: 600px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.container-2{
+    background-color: white;
+    height: 600px;
+}
+.svg{
+    width: 430px;
+    margin-left: 80px;
+    margin-top: 100px;
+
+}
