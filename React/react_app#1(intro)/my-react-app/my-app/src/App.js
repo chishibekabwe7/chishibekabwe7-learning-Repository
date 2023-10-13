@@ -1,18 +1,14 @@
 import './App.css';
-import { useState } from 'react';
 
 function App (){
-       const [inputValue, setInputValue] = useState("")
-
-       const handleinputChange = (event) => {
-        setInputValue(event.target.value);
-       };
-
-
+   const handleNameChange = () =>{
+    const names = ['Bob','Kevin','Dave'];
+    const int = Math.floor(Math.random() * 3)
+    return names[int];
+   }
     return <div className="App">
-         <input type="text" onChange={handleinputChange} /><br />
-         {inputValue}
-        </div>
+   <p>Hello {handleNameChange()}</p> 
+    </div>
     };
 
 export default App;
