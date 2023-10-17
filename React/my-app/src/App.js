@@ -12,7 +12,7 @@ function App (){
 
   return (  <div className="App">
     
-      {planets.map((value, key) =>{
+      {planets.map((value, key) =>{ ()
         return <h1 key={key}> {value.name} </h1>
       })} 
     </div>
