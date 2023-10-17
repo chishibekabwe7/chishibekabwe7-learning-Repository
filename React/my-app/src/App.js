@@ -1,4 +1,5 @@
 import './App.css';
+import {Job} from './tasks/Job';
 
 function App (){
   return (  <div className="App">
@@ -9,17 +10,6 @@ function App (){
   );
 }
 
-const Job = (props) => {
-return(
-  <div>
-  <h1>Name of company:{props.company}</h1>
-  <br/>
-  <h1>Position :{props.position}</h1>
-  <br/>
-  <h1>Salary of Employee :{props.salary}</h1>
-  <br/>
-  </div>
-);
-}
+
 
 export default App;
