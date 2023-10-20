@@ -1,21 +1,18 @@
 import './App.css';
+import { useState } from 'react';
 
 function App (){
-  const planets = [ 
-    {name: "Mars", isGasPlanet: false},
-    {name: "Earth", isGasPlanet: false},
-    {name: "Jupiter", isGasPlanet: true},
-    {name: "Venus", isGasPlanet: false},
-    {name: "Neptune", isGasPlanet: true},
-    {name: "Uranus", isGasPlanet: true},
-  ];
+const [age,setAge] = useState(0);
 
-  return (  <div className="App">
-    
-      {planets.map((value, key) =>{ ()
-        return <h1 key={key}> {value.name} </h1>
-      })} 
-    </div>
+const increaseAge = () =>{
+setAge(age + 1);
+};
+
+  return (  
+  <div className="App">
+    {age}<br/>
+    <button onClick={increaseAge}>Increase age</button><br/>
+  </div>
   );
 }
 
