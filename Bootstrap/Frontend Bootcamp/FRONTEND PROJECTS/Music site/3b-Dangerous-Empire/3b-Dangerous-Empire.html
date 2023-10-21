@@ -10,7 +10,8 @@
 <body>
 <!--Navigation bar-->
    <nav class="nav Navigation-bar">
-        <div class="title"> 3b Dangerous Empire</div>
+        <div><img id="svg-1" src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/icons/award.svg" alt=""></div>
+        <div class="title"> 3b <span style="color: rgb(255,0,85);">Dan</span>gerous <span style="color: rgb(255,0,85);">Empire</span></div>
         <dev class="nav-item"><a href="#" class="nav-link links">Home</a></dev>
         <dev class="nav-item"><a href="#" class="nav-link links">About</a></dev>
         <dev class="nav-item"><a href="#" class="nav-link links">Contact</a></dev>
@@ -22,17 +23,73 @@
 <main class="container-fluid frontpreview">
     <!--front preview-->
     <div class="row">
-        <div class="col-5 container-1">Download your free Music <br>below by 3b Dangerous Empire.</div>
-        <div class="col-7 container-2">
-            <img class="svg" src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/images/undraw_audio_player_re_cl20.svg" alt="">
-        </div>
+        <div class="col-5 container-1">Download <span style="color: rgb(255,0,85); padding: 8px;">free </span> Music below by 3b <span style="color: rgb(255,0,85); padding: 8px;"">Dangerous</span> Empire.</div>
+        <img class="svg" src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/icons/arrow-down.svg" alt="arrow-down">
     </div>
 
     <!--Content Section-->
     <div class="row">
-        <div class="col-3">1</div>
-        <div class="col-6">2</div>
+        <div class="col-3">
+            <h3>Artists</h3>
+            <div class="artist-container">
+                <img class="artist-profile-picture" src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/images/JR-Profile-Picture.png" alt="">
+                <p class="artist-alias">JR</p>
+            </div>
+            <div class="artist-container">
+                <img class="artist-profile-picture" src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/icons/person-circle.svg" alt="">
+                <p class="artist-alias">King Saiva</p>
+            </div>
+            <div class="artist-container">
+                <img class="artist-profile-picture" src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/icons/person-circle.svg" alt="">
+                <p class="artist-alias">YK</p>
+            </div>
+            <div class="artist-container">
+                <img class="artist-profile-picture" src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/icons/person-circle.svg" alt="">
+                <p class="artist-alias">Diss Kay</p>
+            </div>
+            <div class="artist-container">
+                <img class="artist-profile-picture" src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/icons/person-circle.svg" alt="">
+                <p class="artist-alias">Cash Guy</p>
+            </div>
+            <h3 style="margin-top: 50px;">Groups</h3>
+            <div class="artist-container">
+                <img class="artist-profile-picture" src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/icons/person-circle.svg" alt="">
+                <p class="artist-alias">3B-Dangerous-Empire</p>
+            </div>
+            <div class="artist-container">
+                <img class="artist-profile-picture" src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/icons/person-circle.svg" alt="">
+                <p class="artist-alias">Team Nailwala</p>
+            </div>
+            
+        </div>
+        <!--Music-Card-1-->
+        <div class="col-6">
+            <div class="music-card">
+            <div>
+                <img class="rounded" src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/images/" width="300px">
+            </div>
+                <div class="track-name">
+                    Akanaka Ukufimba
+                </div>
+                <div class="artist-name">
+                 JR ICHIPATALA ft YK
+                </div>
+                
+                <div>
+                <a href="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/music/3b Dangerous Empire  JR Ichipatala ft YK  Akanaka Ukufimba.mp3" download="3b Dangerous Empire  JR Ichipatala ft YK  Akanaka Ukufimba.mp3"><button class="btn btn-primary download-button">Download</button></a>
+                </div>
+
+                <!--Like and Dislike Buttons-->
+                <a class="like-button">
+                    <img id="thumbs-up" src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/icons/hand-thumbs-up.svg" width="25px" alt="like">
+                </a>
+                <a class="dislike-button">
+                    <img id="thumbs-down" src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/icons/hand-thumbs-down.svg" width="25px" alt="like">
+                </a>
+            </div>
+        </div>
     </div>
 </main>
 </body>
+<script src="/Bootstrap/Frontend Bootcamp/FRONTEND PROJECTS/Music site/3b-Dangerous-Empire/scripts/3b-Dangerous-Empire.js"></script>
 </html>

@@ -23,14 +23,76 @@ margin-right: 600px;
     display: flex;
     align-items:center;
     justify-content: center;
-}
-.container-2{
-    background-color: white;
-    height: 600px;
+    width: 100%;
 }
 .svg{
-    width: 430px;
-    margin-left: 80px;
-    margin-top: 100px;
+    width: 100px;
+    position: absolute;
+    left: 645px;
+    top: 400px;
 
+}
+#svg-1{
+    width: 35px;
+}
+.music-card{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    border-radius: 7px;
+    padding: 10px;
+    height: 338px;
+    border: 1px solid rgb(184, 184, 184);
+}
+.audio-file{
+height: 35px;
+width: 400px;
+}
+.track-name{
+    font-size: 30px;
+    color: rgb(61, 60, 60);
+
+}
+.artist-name{
+    display: flex;
+    margin-left: 10px;
+    font-size: 17px;
+    color: gray;
+}
+.download-button{
+    background-color: rgb(255, 0, 85);
+    margin-top: 13px;
+    border-color: rgb(255, 0, 85);
+    width: 120px;
+}
+.download-button:hover{
+    background-color: rgb(255, 0, 85);
+    border-color: rgb(255, 0, 85);
+    box-shadow: 3px 3px 29px rgba(255, 0, 85, 10);
+
+}
+.artist-profile-picture{
+    width: 55px;
+    border-radius: 55px;
+}
+.artist-container{
+    display: flex;
+    margin-top: 10px;
+}
+.artist-alias{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.like-button{
+    position: relative;
+    top: 0px;
+    left: 240px;
+}
+
+.dislike-button{
+   position: relative;
+   top: -23px;
+   left: 280px;
 }
