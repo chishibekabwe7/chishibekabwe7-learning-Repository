@@ -2,25 +2,28 @@ import './App.css';
 import { useState } from 'react';
 
 function App (){
-  const [count , setCount] = useState(0);
+ const [todoList,setTodoList] = useState([]);
 
-  const IncreaseBy1 = () => {
-    setCount(count + 1);
-  };
-  const DecreaseBy1 = () => {
-    setCount(count - 1);
-  };
-  const Reset = () => {
-     setCount(0)
-  };
+ const [newTask,setNewTask] = useState("");
+ 
+ const handleChange = (event) =>{
+  setNewTask(event.target.value);
+ }
 
+ const addTask = () => {
 
+ };
   return (  
   <div className="App">
-   <button onClick={DecreaseBy1}>Decrease</button><br/>
-   <button onClick={IncreaseBy1} style={{marginTop : "10px"}}>Increase</button><br/>
-   <button onClick={Reset} style={{marginTop : "10px"}}>Set to Zero</button><br/><br/>
-   {count}
+    {/*div 1*/}
+    <div className="addTask">
+      <input onChange={handleChange} />
+        <button>Add Task</button><br/>
+        {newTask}
+    </div>
+
+  {/*div 2 */}
+  <div className="list"></div>
   </div>
   );
 }
