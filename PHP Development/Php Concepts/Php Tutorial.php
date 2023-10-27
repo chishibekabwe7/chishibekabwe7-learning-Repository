@@ -52,7 +52,6 @@ else {
     echo "Not divisible by either 2 or 3";
 }
 
-*/
 
 //Switch Statements
 $level = 5;
@@ -71,11 +70,32 @@ switch($level){
 
      case 4:
         echo "You are playing at EXTREME level";
-     break;   
-     default:
+        break;   
+        default:
         echo "Invalid Input";
-}
+    }
+    */
+    
+    //Loops
+    //while loop
+    $var_1 = 1;
+    while($var_1 <= 10){
+        echo "Number: $var_1<br>";
+        $var_1++;
+    }
+    
+    //Do or while loop
+    $var_2 = 11;
+    do {
+        echo "Number: $var_2 <br>";
+        $var_2++;
+    }
+    while($var_2 <= 10);
 
+   //For loop 
+   for ($var_3 = 1; $var_3 <= 6; $var_3++){
+    echo "Number: $var_3 <br>";
+   };
   ?>
 </body>
 </html>
