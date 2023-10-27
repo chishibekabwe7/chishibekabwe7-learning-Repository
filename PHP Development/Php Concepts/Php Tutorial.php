@@ -30,7 +30,6 @@
  //Method 2
  define("Tech_Giants", ["Apple","Microsoft","Google","Amazon"]);
  echo Tech_Giants[3];
- */
  
  //If,else Statements
  //Condition 1
@@ -48,11 +47,34 @@
  }
  elseif ($var % 3 == 0){
     echo "Divisible by 3";
- }
- else {
+}
+else {
     echo "Not divisible by either 2 or 3";
- }
+}
 
+*/
+
+//Switch Statements
+$level = 5;
+switch($level){
+     case 1:
+        echo "You are playing at EASY level";
+     break;   
+
+     case 2:
+        echo "You are playing at MODERATE level";
+     break;   
+
+     case 3:
+        echo "You are playing at HARD level";
+     break;   
+
+     case 4:
+        echo "You are playing at EXTREME level";
+     break;   
+     default:
+        echo "Invalid Input";
+}
 
   ?>
 </body>
