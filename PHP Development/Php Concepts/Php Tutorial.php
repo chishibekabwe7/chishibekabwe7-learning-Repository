@@ -74,7 +74,6 @@ switch($level){
         default:
         echo "Invalid Input";
     }
-    */
     
     //Loops
     //while loop
@@ -91,11 +90,22 @@ switch($level){
         $var_2++;
     }
     while($var_2 <= 10);
+    
+    //For loop 
+    for ($var_3 = 1; $var_3 <= 6; $var_3++){
+        echo "Number: $var_3 <br>";
+    };
+    
+    */
 
-   //For loop 
-   for ($var_3 = 1; $var_3 <= 6; $var_3++){
-    echo "Number: $var_3 <br>";
-   };
-  ?>
-</body>
-</html>
+    //Php Functions
+    function name () {
+        for ($var_3 = 1; $var_3 <= 6; $var_3++){
+           echo "Number: $var_3 <br>";
+        };
+    }
+   //Calling the Function 
+   name();
+    ?>
+    </body>
+    </html>
