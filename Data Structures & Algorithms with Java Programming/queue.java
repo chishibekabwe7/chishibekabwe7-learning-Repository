@@ -1,6 +1,7 @@
 import java.util.Queue;
 import java.util.LinkedList;
 public class queue{
+
     public static void main(String[] args){
     //Declaring a Queue    
     Queue<String> queue = new LinkedList<String>();

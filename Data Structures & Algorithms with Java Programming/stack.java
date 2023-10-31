@@ -8,7 +8,7 @@ public class stack{
      stack.push("FIFA 2023");
      stack.push("Need For Speed the Run");
      stack.push("Call of Duty Morden Welfare");
-     stack.push("GTA V");
+     tack.push("GTA V");
 
      //Checking if our stack is empty
      //System.out.println(stack.empty());
@@ -19,7 +19,7 @@ public class stack{
      stack.pop();
      stack.pop();
      stack.pop();*/
-    
+
 
     //looking at the top element in a stack
     //System.out.println(stack.peek());
