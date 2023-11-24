@@ -9,6 +9,25 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+.social-media-links{
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.social-media-icon{
+    margin-left: 10px;
+    margin-right: 10px;
+     transition: transform 0.1s ease-in-out;
+}
+.social-media-icon:hover{
+    filter: brightness(110%);
+    transform: translateY(-5px);
+}
+.social-media-icon:active{
+    transform: translateY(-5px);
+}
 .title{
 font-size: 35px;
 color: rgb(247, 247, 247);
@@ -79,7 +98,12 @@ width: 400px;
     background-color: rgb(255, 0, 85);
     border-color: rgb(255, 0, 85);
     box-shadow: 3px 3px 29px rgba(255, 0, 85, 10);
-
+}
+.download-button:active{
+    background-color: rgb(255, 0, 85);
+    border-color: rgb(255, 0, 85);
+    box-shadow: 3px 3px 29px rgba(255, 0, 85, 10);
+    transform: translateY(-2px);
 }
 .artist-profile-picture{
     width: 50px;
@@ -91,6 +115,10 @@ width: 400px;
     border-radius: 6px;
     border: 1px solid rgb(190, 186, 186);
     margin-top: 10px;
+    transition: transform 0.1s ease-in-out;
+}
+.artist-container:hover{
+    transform: translateY(-7px);
 }
 .artist-alias{
     font-size: 16px;
@@ -102,9 +130,18 @@ width: 400px;
     top: 0px;
     left: 240px;
 }
+.like-button:active{
+transform: translateY(-2px);
+}
 
 .dislike-button{
    position: relative;
    top: -23px;
    left: 280px;
+}
+.dislike-button:active{
+transform: translateY(3px);
+}
+.aboutPage{
+    line-height: 2;
 }
