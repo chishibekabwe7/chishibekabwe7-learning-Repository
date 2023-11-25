@@ -28,6 +28,10 @@ body {
 .social-media-icon:active{
     transform: translateY(-5px);
 }
+.rounded{
+    border: 3px solid rgb(133, 133, 133);
+    border-radius: 5px;
+}
 .title{
 font-size: 35px;
 color: rgb(247, 247, 247);
@@ -55,7 +59,7 @@ margin-right: 600px;
 
 }
 #svg-1{
-    width: 35px;
+    width: 64px;
 }
 .album-art{
     border-radius: 100px;
@@ -144,4 +148,10 @@ transform: translateY(3px);
 }
 .aboutPage{
     line-height: 2;
+}
+.whatsapp-container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 25px;
 }
