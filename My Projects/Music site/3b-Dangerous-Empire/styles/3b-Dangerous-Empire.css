@@ -1,5 +1,6 @@
 body {
-    font-family: roboto;
+    font-family: roboto,arial;
+    overflow-x: hidden;
 }
 .Navigation-bar{
     background-color: rgb(8, 4, 8);
@@ -8,6 +9,9 @@ body {
     height: 55px;
     align-items: center;
     justify-content: space-around;
+}
+.nav-item{
+    font-size: 12px;
 }
 .social-media-links{
     display: flex;
@@ -28,6 +32,9 @@ body {
 .social-media-icon:active{
     transform: translateY(-5px);
 }
+.Sidebar{
+    visibility: visible;
+}
 .rounded{
     border: 3px solid rgb(133, 133, 133);
     border-radius: 5px;
@@ -36,8 +43,12 @@ body {
 font-size: 35px;
 color: rgb(247, 247, 247);
 margin-left: 10px;
-margin-right: 600px;
+margin-right: 500px;
 
+}
+.frontpreview-message{
+    color: rgb(255,0,85); 
+    padding: 8px;
 }
 .links{
     color: grey;
@@ -153,5 +164,10 @@ transform: translateY(3px);
     display: flex;
     justify-content: center;
     color: white;
-    margin-bottom: 25px;
+    margin-top: 300px;
+}
+.footer {
+    text-align: center; 
+    color: gray; 
+    margin-top: 30px;
 }
