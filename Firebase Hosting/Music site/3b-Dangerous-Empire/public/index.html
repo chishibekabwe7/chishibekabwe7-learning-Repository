@@ -3,6 +3,7 @@
 <head>
     <!-- OFFLINE BOOTSRAP CONFIGURATION -->
     <link rel="stylesheet" href="/Bootstrap Development/Compiled version/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="/Bootstrap Development/Compiled version/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
     <!-- BOOTSRAP CDN-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- CSS STYLESHEET -->
@@ -26,34 +27,56 @@
 <body>
 <!--Navigation bar-->
    <nav class="nav Navigation-bar">
+        <!-- Main Logo -->
         <div><img id="svg-1" src="./images/3B Dangerous Empire Main logo.jpg"></div>
+        <!-- Brand Logo -->
         <div class="title"> 3b <span style="color: rgb(255,0,85);">Dan</span>gerous <span style="color: rgb(255,0,85);">Empire</span></div>
-        <div class="nav-item"><a href="#" class="nav-link links">HOME</a></div>
-        <div class="nav-item"><a id="About" href="./About.html " target="_blank" class="nav-link links">ABOUT</a></div>
-        <div class="nav-item"><a href="./contact.html" target="_blank" class="nav-link links">CONTACT </a></div>
-        <div class="nav-item"><a href="mailto:chishibekabwe.ck@gmail.com" class="nav-link links">EMAIL </a></div>
-</nav> 
-
-<div class="social-media-links">
-    <a href="https://www.youtube.com/channel/UCUxGzQmvLbRWW-p7zXNPrgg" target="_blank">
-        <img class="social-media-icon" src="./icons/youtube-color-icon.svg" width="45px" height="40px"  alt="Youtube">
-    </a>
-    <a href="https://audiomack.com/3b-dangerous-empire" target="_blank">
-        <img class="social-media-icon" src="./icons/audiomack-icon.svg" width="45px" height="40px"  alt="Audiomark">
-    </a>
-    <a href="https://web.facebook.com/profile.php?id=61553923381490" target="_blank">
-        <img class="social-media-icon" src="./icons/facebook-round-color-icon.svg" width="45px" height="40px"  alt="Facebook">
-    </a>
-    <a href="./Whatsapp.html" target="_blank">
-        <img class="social-media-icon" src="./icons/whatsapp-color-icon.svg" width="45px" height="40px" alt="Whatsapp">
-    </a>
-    <a href="https://www.tiktok.com/@3b_dangerous_empire?is_from_webapp=1&sender_device=pc" target="_blank">
-        <img class="social-media-icon" src="./icons/tiktok-square-color-icon.svg" width="45px" height="40px"  alt="Tiktok">
-    </a>
-    <a href="https://www.instagram.com/3b_dangerous_empire/" target="_blank">
-        <img class="social-media-icon" src="./icons/ig-instagram-icon.svg" width="45px" height="40px"  alt="Instagram">
-    </a>
-</div>
+        <!-- Bootsrap Offcanvas -->
+        <a data-bs-toggle="offcanvas" href="#offcanvasExample"
+        role="button" aria-controls="offcanvasExample">
+        <img class="hamburger-menu" src="./icons/icons8-menu.svg" alt="menu">
+        </a>
+<div class="offcanvas offcanvas-start offcanvas-container" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <h2 class="offcanvas-title" id="offcanvasExampleLabel">3b <span style="color: rgb(255,0,85);">Dan</span>gerous <span style="color: rgb(255,0,85);">Empire</span></h2>
+        <button  type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-
+        label="Close"></button>
+                </div>
+        <div class="offcanvas-body">
+           <!-- Social media links -->
+           <div class="social-media-links">
+                   <a href="https://www.youtube.com/channel/UCUxGzQmvLbRWW-p7zXNPrgg" target="_blank">
+                       <img class="social-media-icon" src="./icons/youtube-color-icon.svg" width="45px" height="40px"  alt="Youtube">
+                   </a>
+                   <a href="https://audiomack.com/3b-dangerous-empire" target="_blank">
+                       <img class="social-media-icon" src="./icons/audiomack-icon.svg" width="45px" height="40px"  alt="Audiomark">
+                   </a>
+                   <a href="https://web.facebook.com/profile.php?id=61553923381490" target="_blank">
+                       <img class="social-media-icon" src="./icons/facebook-round-color-icon.svg" width="45px" height="40px"  alt="Facebook">
+                   </a>
+                   <a href="./Whatsapp.html" target="_blank">
+                       <img class="social-media-icon" src="./icons/whatsapp-color-icon.svg" width="45px" height="40px" alt="Whatsapp">
+                   </a>
+                   <a href="https://www.tiktok.com/@3b_dangerous_empire?is_from_webapp=1&sender_device=pc" target="_blank">
+                       <img class="social-media-icon" src="./icons/tiktok-square-color-icon.svg" width="45px" height="40px"  alt="Tiktok">
+                   </a>
+                   <a href="https://www.instagram.com/3b_dangerous_empire/" target="_blank">
+                       <img class="social-media-icon" src="./icons/instagram.svg" width="45px" height="40px"  alt="Instagram">
+                   </a>
+                </div>
+                 <!-- Offcanvas Options -->
+           <div class="menu-options">
+              <div class="nav-item"><a href="#" class="nav-link links">HOME</a></div>
+              <div class="nav-item"><a id="About" href="./About.html " target="_blank" class="nav-link links">ABOUT</a></div>
+              <div class="nav-item"><a href="./contact.html" target="_blank" class="nav-link links">CONTACT </a></div>
+              <div class="nav-item"><a href="mailto:chishibekabwe.ck@gmail.com" class="nav-link links">EMAIL </a></div>
+           </div>
+      </div>
+</div>  
+    </nav> 
+    
+    <!-- ==================== End of Navigation bar ==================-->
+    
 
 <!--Main body-->
 <main class="container-fluid frontpreview">
@@ -383,4 +406,6 @@
 </main>
 </body>
 <script src="./scripts/3b-Dangerous-Empire.js"></script>
-</html>
+</html> 
+
+<!-- ================================================= AUTHOR KABWE CHISHIBE =========================================-->-

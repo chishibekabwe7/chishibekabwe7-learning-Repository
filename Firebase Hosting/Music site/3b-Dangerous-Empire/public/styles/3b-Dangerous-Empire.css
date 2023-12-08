@@ -2,22 +2,22 @@ body {
     font-family: roboto,arial;
     overflow-x: hidden;
 }
-.Navigation-bar{
+.Navigation-bar {
     background-color: rgb(8, 4, 8);
     color: white;
     display: flex;
+    flex-direction: row;
     height: 55px;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-between;
 }
 .nav-item{
     font-size: 12px;
 }
 .social-media-links{
     display: flex;
+    flex-direction: column;
     height: 4rem;
-    justify-content: center;
-    align-items: center;
     margin-top: 10px;
 }
 .social-media-icon{
@@ -43,7 +43,7 @@ body {
 font-size: 35px;
 color: rgb(247, 247, 247);
 margin-left: 10px;
-margin-right: 500px;
+margin-right: 900px;
 
 }
 .frontpreview-message{
@@ -131,6 +131,7 @@ width: 400px;
     border: 1px solid rgb(190, 186, 186);
     margin-top: 10px;
     transition: transform 0.1s ease-in-out;
+    margin-left: 3px;
 }
 .artist-container:hover{
     transform: translateY(-7px);
@@ -171,3 +172,16 @@ transform: translateY(3px);
     color: gray; 
     margin-top: 30px;
 }
+.hamburger-menu{
+    width: 30px;
+    margin-right: 13px;
+}
+.offcanvas-container {
+    background-color: rgb(66, 65, 65);
+    color: gray;
+}
+.munu-options {
+margin-bottom: 10px;
+}
+
+/* ================================================= AUTHOR KABWE CHISHIBE ========================================= */
