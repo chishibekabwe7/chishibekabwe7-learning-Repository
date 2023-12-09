@@ -24,8 +24,9 @@ body {
     margin-bottom: 15px;
     border-radius: 9px;
     color: white;
-    font-size: 25px;
-    font-family: 'Cookie', cursive;
+    font-size: 20px;
+    font-family: 'Schoolbell', cursive;
+
 ;
 }
 .social-media-icon{
@@ -106,7 +107,8 @@ width: 400px;
 .track-name{
     font-size: 26px;
     color: rgb(61, 60, 60);
-
+    font-family: 'Schoolbell', cursive;
+;
 }
 .artist-name{
     display: flex;
