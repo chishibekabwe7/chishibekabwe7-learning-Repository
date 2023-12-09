@@ -7,7 +7,7 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
-    height: 55px;
+    height: 60px;
     align-items: center;
     justify-content:space-between;
 }
@@ -18,12 +18,23 @@ body {
     display: flex;
     flex-direction: column;
     height: 4rem;
-    margin-top: 10px;
+}
+.social-media-bar{
+    border: 3px solid rgb(27, 27, 27);
+    margin-bottom: 15px;
+    border-radius: 9px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Cookie', cursive;
+;
 }
 .social-media-icon{
+    width: 27px;
     margin-left: 10px;
     margin-right: 10px;
-     transition: transform 0.1s ease-in-out;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.1s ease-in-out;
 }
 .social-media-icon:hover{
     filter: brightness(110%);
@@ -177,11 +188,22 @@ transform: translateY(3px);
     margin-right: 13px;
 }
 .offcanvas-container {
-    background-color: rgb(66, 65, 65);
+    background-color: black;
     color: gray;
 }
-.munu-options {
-margin-bottom: 10px;
+.offcanvas-body {
+    height: 800px;
+}
+.menu-options {
+margin-bottom: 20px;
+display: flex;
+justify-content: space-evenly;
+border: 1px solid rgb(12, 12, 12);
+border-radius: 6px;
+}
+#reset-button {
+background-color: white;
+padding: 10px;
 }
 
 /* ================================================= AUTHOR KABWE CHISHIBE ========================================= */

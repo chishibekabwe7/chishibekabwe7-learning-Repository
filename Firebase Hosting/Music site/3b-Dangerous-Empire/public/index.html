@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="/Bootstrap Development/Compiled version/bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <script src="/Bootstrap Development/Compiled version/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
     <!-- BOOTSRAP CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- CSS STYLESHEET -->
     <link rel="stylesheet" href="./styles/3b-Dangerous-Empire.css">
@@ -19,6 +20,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Euphoria+Script&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- FAVICON -->
     <link rel="icon" href="./icons/croped 3b Dangerous empire main logo.PNG">
     <!-- TITLE -->
@@ -32,45 +37,67 @@
         <!-- Brand Logo -->
         <div class="title"> 3b <span style="color: rgb(255,0,85);">Dan</span>gerous <span style="color: rgb(255,0,85);">Empire</span></div>
         <!-- Bootsrap Offcanvas -->
-        <a data-bs-toggle="offcanvas" href="#offcanvasExample"
-        role="button" aria-controls="offcanvasExample">
-        <img class="hamburger-menu" src="./icons/icons8-menu.svg" alt="menu">
+        <div class="menu">
+            <a data-bs-toggle="offcanvas" href="#offcanvasExample"
+            role="button" aria-controls="offcanvasExample">
+            <img class="hamburger-menu" src="./icons/icons8-menu.svg" alt="menu">
         </a>
+         </div>
 <div class="offcanvas offcanvas-start offcanvas-container" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">
         <h2 class="offcanvas-title" id="offcanvasExampleLabel">3b <span style="color: rgb(255,0,85);">Dan</span>gerous <span style="color: rgb(255,0,85);">Empire</span></h2>
-        <button  type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-
+        <button id="reset-button" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-
         label="Close"></button>
                 </div>
         <div class="offcanvas-body">
-           <!-- Social media links -->
-           <div class="social-media-links">
-                   <a href="https://www.youtube.com/channel/UCUxGzQmvLbRWW-p7zXNPrgg" target="_blank">
-                       <img class="social-media-icon" src="./icons/youtube-color-icon.svg" width="45px" height="40px"  alt="Youtube">
-                   </a>
-                   <a href="https://audiomack.com/3b-dangerous-empire" target="_blank">
-                       <img class="social-media-icon" src="./icons/audiomack-icon.svg" width="45px" height="40px"  alt="Audiomark">
-                   </a>
-                   <a href="https://web.facebook.com/profile.php?id=61553923381490" target="_blank">
-                       <img class="social-media-icon" src="./icons/facebook-round-color-icon.svg" width="45px" height="40px"  alt="Facebook">
-                   </a>
-                   <a href="./Whatsapp.html" target="_blank">
-                       <img class="social-media-icon" src="./icons/whatsapp-color-icon.svg" width="45px" height="40px" alt="Whatsapp">
-                   </a>
-                   <a href="https://www.tiktok.com/@3b_dangerous_empire?is_from_webapp=1&sender_device=pc" target="_blank">
-                       <img class="social-media-icon" src="./icons/tiktok-square-color-icon.svg" width="45px" height="40px"  alt="Tiktok">
-                   </a>
-                   <a href="https://www.instagram.com/3b_dangerous_empire/" target="_blank">
-                       <img class="social-media-icon" src="./icons/instagram.svg" width="45px" height="40px"  alt="Instagram">
-                   </a>
-                </div>
-                 <!-- Offcanvas Options -->
+         <!-- Offcanvas Options -->
            <div class="menu-options">
               <div class="nav-item"><a href="#" class="nav-link links">HOME</a></div>
               <div class="nav-item"><a id="About" href="./About.html " target="_blank" class="nav-link links">ABOUT</a></div>
               <div class="nav-item"><a href="./contact.html" target="_blank" class="nav-link links">CONTACT </a></div>
               <div class="nav-item"><a href="mailto:chishibekabwe.ck@gmail.com" class="nav-link links">EMAIL </a></div>
            </div>
+
+           <!-- Social media links -->
+           <div class="social-media-links">
+                   <div class="social-media-bar" >
+                       <a href="https://www.youtube.com/channel/UCUxGzQmvLbRWW-p7zXNPrgg" target="_blank">
+                           <img class="social-media-icon" src="./icons/youtube-color-icon.svg" width="45px" height="40px"  alt="Youtube">
+                        </a>Youtube
+                    </div>
+
+                    <div class="social-media-bar" >
+                        <a href="https://audiomack.com/3b-dangerous-empire" target="_blank">
+                            <img class="social-media-icon" src="./icons/audiomack-icon.svg" width="45px" height="40px"  alt="Audiomark">
+                        </a>Audiomack
+                    </div>
+
+
+                    <div class="social-media-bar" >
+                        <a href="https://web.facebook.com/profile.php?id=61553923381490" target="_blank">
+                            <img class="social-media-icon" src="./icons/facebook-round-color-icon.svg" width="45px" height="40px"  alt="Facebook">
+                        </a>Facebook
+                    </div>
+
+                    <div class="social-media-bar" >
+                        <a href="./Whatsapp.html" target="_blank">
+                            <img class="social-media-icon" src="./icons/whatsapp-color-icon.svg" width="45px" height="40px" alt="Whatsapp">
+                        </a>Whatsapp
+                    </div>
+
+                    <div class="social-media-bar" >
+                        <a href="https://www.tiktok.com/@3b_dangerous_empire?is_from_webapp=1&sender_device=pc" target="_blank">
+                            <img class="social-media-icon" src="./icons/tiktok-square-color-icon.svg" width="45px" height="40px"  alt="Tiktok">
+                        </a>Tiktok
+                    </div>
+
+                    <div class="social-media-bar" >
+                        <a href="https://www.instagram.com/3b_dangerous_empire/" target="_blank">
+                            <img class="social-media-icon" src="./icons/ig-instagram-icon.svg" width="45px" height="40px"  alt="Instagram">
+                        </a>Instagram
+                    </div>
+
+                </div>
       </div>
 </div>  
     </nav> 
@@ -81,7 +108,7 @@
 <!--Main body-->
 <main class="container-fluid frontpreview">
     <!--front preview-->
-    <div class="row">
+    <div class="row front-page">
         <div class="col-5 container-1">Download <span class="frontpreview-message" >free </span> Music below by 3b <span class="frontpreview-message" >Dangerous</span> Empire.</div>
         <img style="margin-top: 4rem;" class="svg" src="./icons/arrow-down.svg" alt="arrow-down">
     </div>
