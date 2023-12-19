@@ -25,7 +25,7 @@ This repository is specifically used to host all necessary resources needed for 
 18. Firebase Host files.
 
 ## Contributing
-This is a learning repository no Pull Requests will be accepted, only my the author.
+This is a learning repository no Pull Requests will be accepted, only by the author.
 
 ## Author
 chishibekabwe7@Github.
