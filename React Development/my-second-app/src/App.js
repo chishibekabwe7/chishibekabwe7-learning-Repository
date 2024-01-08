@@ -2,53 +2,38 @@ import './App.css';
 import { useState } from 'react';
 
 function App() {
-  const [todoList, setTodoList] = useState([]);
-  const [newTask, setNewTask] = useState("");
 
-  // OnChange Function
-  const handleChange = (event) => {
-    setNewTask(event.target.value);
-  };
+return ( 
+<div className='App'>
+  <User2 Name="Chishibe" Age={19} email="chishibekabwe7@gmail.com" />
+  <User2 Name="Jake" Age={20} email="Jake23@gmail.com" />
+  <User2 Name="Jessica" Age={22} email="Jessica325@gmail.com" />
+  <Job2 Company="Amazon" Position="Software Developer" Salary="90000" />
+  <Job2 Company="Google" Position="System Cordinator" Salary="70000" />
+  <Job2 Company="Netflix" Position="Database Administrator" Salary="60000" />
+</div>
+);
 
-  // Add Task Function
-  const addTask = () => {
-    const task = {
-      id: todoList.length === 0 ? 1 : todoList[todoList.length - 1].id + 1,
-      taskName: newTask,
-    };
-    setTodoList([...todoList, task]);
-    setNewTask(""); // Clear the input field after adding a task
-  };
+}
 
-  // Delete Task Function
-  const deleteTask = (id) => {
-    const newTodoList = todoList.filter((task) => {
-      return task.id !== id; // Keep tasks with different IDs
-    });
-    setTodoList(newTodoList);
-  };
+const Job2 = (props) => {
+  return(
+    <div>
+      <h1>{props.Company}</h1>
+      <h1>{props.Position}</h1>
+      <h1>{props.Salary}</h1>
+    </div>
+  )
+}
 
-  return (
-    <div className="App">
-      {/* Input bar & Add Task button */}
-      <div className='addTask'>
-        <input value={newTask} onChange={handleChange} />
-        <button onClick={addTask}>Add Task</button>
-      </div>
-
-      {/* Displaying the list item with an array */}
-      <div className='list'>
-        {todoList.map((task) => (
-          <div key={task.id}>
-            <h2>{task.taskName}</h2>
-
-            {/* Deleting a list item */}
-            <button onClick={() => deleteTask(task.id)}>x</button>
-          </div>
-        ))}
-      </div>
-    </div> 
-  );
+const User2 = (props) => {
+return (
+  <div>
+    <h1>{props.Name}</h1>
+    <h1>{props.Age}</h1>
+    <h1>{props.email}</h1>
+  </div>
+)
 }
 
 export default App;
