@@ -1,440 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- OFFLINE BOOTSRAP CONFIGURATION -->
-    <link rel="stylesheet" href="/Bootstrap Development/Compiled version/bootstrap-5.3.2-dist/css/bootstrap.min.css">
-    <script src="/Bootstrap Development/Compiled version/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
-    <!-- BOOTSRAP CDN-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- CSS STYLESHEET -->
-    <link rel="stylesheet" href="./styles/3b-Dangerous-Empire.css">
-    <link rel="stylesheet" href="./styles/media queries.css">
-    <!-- RESPONSIVE WEB DESIGN META TAG -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CHARSET -->
-    <meta charset="UTF-8">
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Euphoria+Script&family=Roboto:wght@400;500;700&family=Schoolbell&display=swap" rel="stylesheet">
-    <!-- FAVICON -->
-    <link rel="icon" href="./icons/croped 3b Dangerous empire main logo.PNG">
-    <!-- TITLE -->
+    <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="./css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- favicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets --> 
+      <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,600,700|Poppins:400,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesoeet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--Title Meta-->
     <title>3b Dangerous Empire</title>
 </head>
 <body>
-<!--Navigation bar-->
-   <nav class="nav Navigation-bar">
-        <!-- Main Logo -->
-        <div><img id="svg-1" src="./images/3B Dangerous Empire Main logo.jpg"></div>
-        <!-- Brand Logo -->
-        <div class="title"> 3b <span style="color: rgb(255,0,85);">Dan</span>gerous <span style="color: rgb(255,0,85);">Empire</span></div>
-        <!-- Bootsrap Offcanvas -->
-        <div class="menu">
-            <a data-bs-toggle="offcanvas" href="#offcanvasExample"
-            role="button" aria-controls="offcanvasExample">
-            <img class="hamburger-menu" src="./icons/icons8-menu.svg" alt="menu">
-        </a>
-         </div>
-<div class="offcanvas offcanvas-start offcanvas-container" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-        <h2 class="offcanvas-title" id="offcanvasExampleLabel">3b <span style="color: rgb(255,0,85);">Dan</span>gerous <span style="color: rgb(255,0,85);">Empire</span></h2>
-        <button id="reset-button" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-
-        label="Close"></button>
-                </div>
-        <div class="offcanvas-body">
-         <!-- Offcanvas Options -->
-           <div class="menu-options">
-              <div class="nav-item"><a href="#" class="nav-link links">HOME</a></div>
-              <div class="nav-item"><a id="About" href="./About.html " target="_blank" class="nav-link links">ABOUT</a></div>
-              <div class="nav-item"><a href="./contact.html" target="_blank" class="nav-link links">CONTACT </a></div>
-              <div class="nav-item"><a href="mailto:chishibekabwe.ck@gmail.com" class="nav-link links">EMAIL </a></div>
-           </div>
-
-           <!-- Social media links -->
-           <div class="social-media-links">
-                   <div class="social-media-bar" >
-                       <a href="https://www.youtube.com/channel/UCUxGzQmvLbRWW-p7zXNPrgg" target="_blank">
-                           <img class="social-media-icon" src="./icons/youtube-color-icon.svg" width="45px" height="40px"  alt="Youtube">
-                        </a>Youtube
-                    </div>
-
-                    <div class="social-media-bar" >
-                        <a href="https://audiomack.com/3b-dangerous-empire" target="_blank">
-                            <img class="social-media-icon" src="./icons/audiomack-icon.svg" width="45px" height="40px"  alt="Audiomark">
-                        </a>Audiomack
-                    </div>
-
-
-                    <div class="social-media-bar" >
-                        <a href="https://web.facebook.com/profile.php?id=61553923381490" target="_blank">
-                            <img class="social-media-icon" src="./icons/facebook-round-color-icon.svg" width="45px" height="40px"  alt="Facebook">
-                        </a>Facebook
-                    </div>
-
-                    <div class="social-media-bar" >
-                        <a href="./Whatsapp.html" target="_blank">
-                            <img class="social-media-icon" src="./icons/whatsapp-color-icon.svg" width="45px" height="40px" alt="Whatsapp">
-                        </a>Whatsapp
-                    </div>
-
-                    <div class="social-media-bar" >
-                        <a href="https://www.tiktok.com/@3b_dangerous_empire?is_from_webapp=1&sender_device=pc" target="_blank">
-                            <img class="social-media-icon" src="./icons/tiktok-square-color-icon.svg" width="45px" height="40px"  alt="Tiktok">
-                        </a>Tiktok
-                    </div>
-
-                    <div class="social-media-bar" >
-                        <a href="https://www.instagram.com/3b_dangerous_empire/" target="_blank">
-                            <img class="social-media-icon" src="./icons/ig-instagram-icon.svg" width="45px" height="40px"  alt="Instagram">
-                        </a>Instagram
-                    </div>
-
-                </div>
-      </div>
-</div>  
-    </nav> 
-    
-    <!-- ==================== End of Navigation bar ==================-->
-    
-
-<!--Main body-->
-<main class="container-fluid frontpreview">
-    <!--front preview-->
-    <div class="row front-page">
-        <div class="col-5 container-1">Download <span class="frontpreview-message" >free </span> Music below by 3b <span class="frontpreview-message" >Dangerous</span> Empire.</div>
-        <img style="margin-top: 4rem;" class="svg" src="./icons/arrow-down.svg" alt="arrow-down">
-    </div>
-
-    <!--Content Section-->
-    <div class="row">
-        <!--Sidebar-->
-        <aside class="col-3 Sidebar">
-            <h3>Artists</h3>
-            <div class="artist-container">
-                <img style="border: 1px solid rgb(241, 13, 89); padding: 2px;" class="artist-profile-picture" src="./icons/person-circle.svg" alt="JR">
-                <p class="artist-alias">JR ICHIPATALA</p>
-            </div>
-            <div class="artist-container">
-                <img class="artist-profile-picture" src="./icons/person-circle.svg">
-                <p class="artist-alias">King Saiva</p>
-            </div>
-            <div class="artist-container">
-                <img class="artist-profile-picture" src="./icons/person-circle.svg">
-                <p class="artist-alias">Mr Amol</p>
-            </div>
-            <div class="artist-container">
-                <img class="artist-profile-picture" src="./icons/person-circle.svg">
-                <p class="artist-alias">Diss Kay</p>
-            </div>
-            <div class="artist-container">
-                <img class="artist-profile-picture" src="./icons/person-circle.svg">
-                <p class="artist-alias">Cash Guy</p>
-            </div>
-            <div class="artist-container">
-                <img class="artist-profile-picture" src="./icons/person-circle.svg">
-                <p class="artist-alias">YK</p>
-            </div>
-            <h3 style="margin-top: 50px;">Groups</h3>
-            <div class="artist-container">
-                <img class="artist-profile-picture" src="./icons/person-circle.svg">
-                <p class="artist-alias">3B-Dangerous-Empire</p>
-            </div>
-            <div class="artist-container">
-                <img class="artist-profile-picture" src="./icons/person-circle.svg">
-                <p class="artist-alias">Team Nailwala</p>
-            </div>
-            
-        </aside>
-        <!--Content Container-->
-        <div class="col-6">
-
-            <!--Music Card 1-->
-            <div class="music-card">
-            <div>
-                <img class="rounded" src="./images/3B Dangerous Empire Main logo.jpg" width="170px" >
-            </div>
-                <div class="track-name">
-                    Akanaka Ukufimba
-                </div>
-                <div class="artist-name">
-                 JR ICHIPATALA ft YK
-                </div>
-                
-                <div>
-                <a href="./music/3b Dangerous Empire  JR Ichipatala ft YK  Akanaka Ukufimba.mp3" download="3b Dangerous Empire  JR Ichipatala ft YK  Akanaka Ukufimba.mp3"><button onclick="alert('Your Song is Downloading.')" class="btn btn-primary download-button">Download</button></a>
-                </div>
-
-                <!--Like and Dislike Buttons-->
-                <a class="like-button">
-                    <img id="thumbs-up"     src="icons/thumbs-up-line-icon.svg" width="25px" alt="like">
-                </a>
-                <a class="dislike-button">
-                    <img id="thumbs-down" src="./icons/thumbs-down-line-icon.svg" width="25px" alt="like">
-                </a>
-            </div>
-
-            <!--Music Card 2-->
-        <div class="col-6">
-            <div class="music-card">
-            <div>
-                <img class="rounded" src="./images/3B Dangerous Empire Main logo.jpg" width="170px">
-            </div>
-                <div class="track-name">
-                    Lesa Mpaleni
-                </div>
-                <div class="artist-name">
-                 JR ICHIPATALA ft Mr Amol
-                </div>
-                
-                <div>
-                <a href="./music/Lesa Mpaleni Jr Ichipatala ft Mr Amol & Su.mp3" download="Lesa Mpaleni Jr Ichipatala ft Mr Amol & Su.mp3"><button onclick="alert('Your Song is Downloading.')" class="btn btn-primary download-button">Download</button></a>
-                </div>
-
-                <!--Like and Dislike Buttons-->
-                <a class="like-button">
-                    <img id="thumbs-up"     src="icons/thumbs-up-line-icon.svg" width="25px" alt="like">
-                </a>
-                <a class="dislike-button">
-                    <img id="thumbs-down" src="./icons/thumbs-down-line-icon.svg" width="25px" alt="like">
-                </a>
-            </div>
-        </div>
-
-           <!--Music Card 3-->
-        <div class="col-6">
-            <div class="music-card">
-            <div>
-                <img class="rounded" src="./images/3B Dangerous Empire Main logo.jpg" width="170px">
-            </div>
-                <div class="track-name">
-                   Wilanshupa
-                </div>
-                <div class="artist-name">
-                 JR Ichipatala
-                </div>
-                
-                <div>
-                <a href="./music/JR Ichipatala  Wilanshupa.mp3" download="JR Ichipatala  Wilanshupa.mp3"><button onclick="alert('Your Song is Downloading.')" class="btn btn-primary download-button">Download</button></a>
-                </div>
-
-                <!--Like and Dislike Buttons-->
-                <a class="like-button">
-                    <img id="thumbs-up"     src="icons/thumbs-up-line-icon.svg" width="25px" alt="like">
-                </a>
-                <a class="dislike-button">
-                    <img id="thumbs-down" src="./icons/thumbs-down-line-icon.svg" width="25px" alt="like">
-                </a>
-            </div>
-        </div>
-
-          <!--Music Card 4-->
-          <div class="col-6">
-            <div class="music-card">
-            <div>
-                <img class="rounded" src="./images/3B Dangerous Empire Main logo.jpg" width="170px">
-            </div>
-                <div class="track-name">
-                   Abana ba pa roan
-                </div>
-                <div class="artist-name">
-                 King Saiva ft JR Ichipatala
-                </div>
-                
-                <div>
-                <a href="./music/Jr Ichipatala ft King saiva Abana ba pa roan.mp3" download="Jr Ichipatala ft King saiva Abana ba pa roan.mp3"><button onclick="alert('Your Song is Downloading.')" class="btn btn-primary download-button">Download</button></a>
-                </div>
-
-                <!--Like and Dislike Buttons-->
-                <a class="like-button">
-                    <img id="thumbs-up"     src="icons/thumbs-up-line-icon.svg" width="25px" alt="like">
-                </a>
-                <a class="dislike-button">
-                    <img id="thumbs-down" src="./icons/thumbs-down-line-icon.svg" width="25px" alt="like">
-                </a>
-            </div>
-        </div>
-
-          <!--Music Card 5-->
-          <div class="col-6">
-            <div class="music-card">
-            <div>
-                <img class="rounded" src="./images/3B Dangerous Empire Main logo.jpg" width="170px">
-            </div>
-                <div class="track-name">
-                   Balitushile Twabasanga
-                </div>
-                <div class="artist-name">
-                 Jr Ichipatala ft Team So Sick
-                </div>
-                
-                <div>
-                <a href="./music/JR ICHIPATALA 3BDANGEROUS EMPIRE BALITUSHILE TWABASANGA.mp3" download="JR ICHIPATALA 3BDANGEROUS EMPIRE BALITUSHILE TWABASANGA.mp3"><button onclick="alert('Your Song is Downloading.')" class="btn btn-primary download-button">Download</button></a>
-                </div>
-
-                <!--Like and Dislike Buttons-->
-                <a class="like-button">
-                    <img id="thumbs-up"     src="icons/thumbs-up-line-icon.svg" width="25px" alt="like">
-                </a>
-                <a class="dislike-button">
-                    <img id="thumbs-down" src="./icons/thumbs-down-line-icon.svg" width="25px" alt="like">
-                </a>
-            </div>
-        </div>
-
-
-          <!--Music Card 6-->
-          <div class="col-6">
-            <div class="music-card">
-            <div>
-                <img class="rounded" src="./images/3B Dangerous Empire Main logo.jpg" width="170px">
-            </div>
-                <div class="track-name">
-                   --Baby
-                </div>
-                <div class="artist-name">
-                 JR Ichipatala ft Diss kay
-                </div>
-                
-                <div>
-                <a href="./music/JR ft Diss K --baby.mp3" download="JR ft Diss K --baby.mp3"><button onclick="alert('Your Song is Downloading.')"onclick="alert('Your Song is Downloading.')" class="btn btn-primary download-button">Download</button></a>
-                </div>
-
-                <!--Like and Dislike Buttons-->
-                <a class="like-button">
-                    <img id="thumbs-up"     src="icons/thumbs-up-line-icon.svg" width="25px" alt="like">
-                </a>
-                <a class="dislike-button">
-                    <img id="thumbs-down" src="./icons/thumbs-down-line-icon.svg" width="25px" alt="like">
-                </a>
-            </div>
-        </div>
-
-        <!--Music Card 7-->
-          <div class="col-6">
-            <div class="music-card">
-            <div>
-                <img class="rounded" src="./images/3B Dangerous Empire Main logo.jpg" width="170px">
-            </div>
-                <div class="track-name">
-                   Ifyo fyaupuba
-                </div>
-                <div class="artist-name">
-                 JR Ichipatala ft Diss kay
-                </div>
-                
-                <div>
-                <a href="./music/3b Dangerous Empire Fyaupuba.mp3" download="3b Dangerous Empire Fyaupuba.mp3"><button onclick="alert('Your Song is Downloading.')" class="btn btn-primary download-button">Download</button></a>
-                </div>
-
-                <!--Like and Dislike Buttons-->
-                <a class="like-button">
-                    <img id="thumbs-up"     src="icons/thumbs-up-line-icon.svg" width="25px" alt="like">
-                </a>
-                <a class="dislike-button">
-                    <img id="thumbs-down" src="./icons/thumbs-down-line-icon.svg" width="25px" alt="like">
-                </a>
-            </div>
-        </div>
-
-        <!--Music Card 8-->
-          <div class="col-6">
-            <div class="music-card">
-            <div>
-                <img class="rounded" src="./images/3B Dangerous Empire Main logo.jpg" width="170px">
-            </div>
-                <div class="track-name">
-                Kubombesha
-                </div>
-                <div class="artist-name">
-                  King saiva ft Jr Ichipatala & Cash Guy
-                </div>
-                
-                <div>
-                <a href="./music/King saiva ft Cash guy - King Junior- kubombesha.mp3" download="King saiva ft Cash guy - King Junior- kubombesha.mp3"><button onclick="alert('Your Song is Downloading.')" class="btn btn-primary download-button">Download</button></a>
-                </div>
-
-                <!--Like and Dislike Buttons-->
-                <a class="like-button">
-                    <img id="thumbs-up"     src="icons/thumbs-up-line-icon.svg" width="25px" alt="like">
-                </a>
-                <a class="dislike-button">
-                    <img id="thumbs-down" src="./icons/thumbs-down-line-icon.svg" width="25px" alt="like">
-                </a>
-            </div>
-        </div>
-
-        <!--Music Card 9-->
-          <div class="col-6">
-            <div class="music-card">
-            <div>
-                <img class="rounded" src="./images/3B Dangerous Empire Main logo.jpg" width="170px">
-            </div>
-                <div class="track-name">
-                   Pedal Down
-                </div>
-                <div class="artist-name">
-                 Team Nailwala ft JR Ichipatala
-                </div>
-                
-                <div>
-                <a href="./music/Pedal Down Team Nailwala ft Jr Ichipatala.mp3" download="Pedal Down Team Nailwala ft Jr Ichipatala.mp3"><button onclick="alert('Your Song is Downloading.')" class="btn btn-primary download-button">Download</button></a>
-                </div>
-
-                <!--Like and Dislike Buttons-->
-                <a class="like-button">
-                    <img id="thumbs-up"     src="icons/thumbs-up-line-icon.svg" width="25px" alt="like">
-                </a>
-                <a class="dislike-button">
-                    <img id="thumbs-down" src="./icons/thumbs-down-line-icon.svg" width="25px" alt="like">
-                </a>
-            </div>
-        </div>
-
-         <!--Music Card 10-->
-         <div class="col-6">
-            <div class="music-card">
-            <div>
-                <img class="rounded" src="./images/3B Dangerous Empire Main logo.jpg" width="170px">
-            </div>
-                <div class="track-name">
-                   My Lovely Darling
-                </div>
-                <div class="artist-name">
-                 Jr Ichipatala ft Mr Amol
-                </div>
-                
-                <div>
-                <a href="./music/My Lovely Darling_JR Ichipatala_Vibrant Music .mp3" download="My Lovely Darling_JR Ichipatala_Vibrant Music .mp3"><button onclick="alert('Your Song is Downloading.')" class="btn btn-primary download-button">Download</button></a>
-                </div>
-
-                <!--Like and Dislike Buttons-->
-                <a class="like-button">
-                    <img id="thumbs-up"     src="icons/thumbs-up-line-icon.svg" width="25px" alt="like">
-                </a>
-                <a class="dislike-button">
-                    <img id="thumbs-down" src="./icons/thumbs-down-line-icon.svg" width="25px" alt="like">
-                </a>
-            </div>
-        </div>
-        <!--Break point-->
-        </div>
-    </div>
-
-    <!--footer-->
-    <footer class="footer">&copy 3b-Dangerous-Empire.<br>2023 | Terms & Conditions.</footer>
-</main>
+ <!-- Navbar Start -->
+ <div class="container-fluid bg-primary">
+  <div class="container">
+      <nav class="navbar navbar-dark navbar-expand-lg py-0">
+          <a href="index.html" class="navbar-brand">
+              <h1 class="text-white fw-bold d-block">Major's<span class="text-secondary">Services</span> </h1>
+          </a>
+          <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+              <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                  <a href="#" class="nav-item nav-link active text-secondary">Home</a>
+                  <a href="./about.html" class="nav-item nav-link">About</a>
+                  <a href="./services.html" class="nav-item nav-link">Services</a>
+                  <a href="./contact.html" class="nav-item nav-link">Contact</a>
+                  <div class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                      <div class="dropdown-menu rounded">
+                          <a href="blog.html" class="dropdown-item">Our Blog</a>
+                          <a href="team.html" class="dropdown-item">Our Team</a>
+                          <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                          <a href="404.html" class="dropdown-item">404 Page</a>
+                      </div>
+                  </div>
+                  <a href="contact.html" class="nav-item nav-link">Contact</a>
+              </div>
+          </div>
+          <div class="d-none d-xl-flex flex-shirink-0">
+              <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                  <a href="" class="position-relative animated tada infinite">
+                      <i class="fa fa-phone-alt text-white fa-2x"></i>
+                      <div class="position-absolute" style="top: -7px; left: 20px;">
+                          <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                      </div>
+                  </a>
+              </div>
+              <div class="d-flex flex-column pe-4 border-end">
+                  <span class="text-secondary">Call: +260 961132425</span>
+              </div>
+              <div class="d-flex align-items-center justify-content-center ms-4 ">
+                  <a href="#"><i class="bi bi-search text-white fa-2x"></i> </a>
+              </div>
+          </div>
+      </nav>
+  </div>
+</div>
+<!-- Navbar End -->
 </body>
-<script src="./scripts/3b-Dangerous-Empire.js"></script>
-</html> 
-
-<!-- ================================================= AUTHOR KABWE CHISHIBE =========================================-->-
+</html>
