@@ -1,0 +1,211 @@
+body {
+    font-family: roboto,arial;
+    overflow-x: hidden;
+}
+.Navigation-bar {
+    background-color: rgb(8, 4, 8);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+    justify-content:space-between;
+}
+.nav-item{
+    font-size: 12px;
+}
+.social-media-links{
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+}
+.social-media-bar{
+    border: 3px solid rgb(27, 27, 27);
+    margin-bottom: 15px;
+    border-radius: 9px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Schoolbell', cursive;
+
+;
+}
+.social-media-icon{
+    width: 27px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.1s ease-in-out;
+}
+.social-media-icon:hover{
+    filter: brightness(110%);
+    transform: translateY(-5px);
+}
+.social-media-icon:active{
+    transform: translateY(-5px);
+}
+.Sidebar{
+    visibility: visible;
+}
+.rounded{
+    border: 3px solid rgb(133, 133, 133);
+    border-radius: 5px;
+}
+.title{
+font-size: 35px;
+color: rgb(247, 247, 247);
+margin-left: 10px;
+margin-right: 900px;
+
+}
+.frontpreview-message{
+    color: rgb(255,0,85); 
+    padding: 8px;
+}
+.links{
+    color: grey;
+}
+.container-1{
+    font-size: 45px;
+    background-color: white;
+    height: 600px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+}
+.svg{
+    width: 100px;
+    position: absolute;
+    left: 645px;
+    top: 400px;
+
+}
+#svg-1{
+    width: 64px;
+}
+.album-art{
+    border-radius: 100px;
+    width: 160px;
+    height: 170px;
+}
+.music-card{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    border-radius: 7px;
+    padding: 10px;
+    height: 338px;
+    border: 1px solid rgb(184, 184, 184);
+    background-color: rgb(250, 250, 250);
+}
+.audio-file{
+height: 35px;
+width: 400px;
+}
+.track-name{
+    font-size: 26px;
+    color: rgb(61, 60, 60);
+    font-family: 'Schoolbell', cursive;
+;
+}
+.artist-name{
+    display: flex;
+    margin-left: 10px;
+    font-size: 15px;
+    color: gray;
+}
+.download-button{
+    background-color: rgb(255, 0, 85);
+    margin-top: 13px;
+    border-color: rgb(255, 0, 85);
+    width: 120px;
+}
+.download-button:hover{
+    background-color: rgb(255, 0, 85);
+    border-color: rgb(255, 0, 85);
+    box-shadow: 3px 3px 29px rgba(255, 0, 85, 10);
+}
+.download-button:active{
+    background-color: rgb(255, 0, 85);
+    border-color: rgb(255, 0, 85);
+    box-shadow: 3px 3px 29px rgba(255, 0, 85, 10);
+    transform: translateY(-2px);
+}
+.artist-profile-picture{
+    width: 50px;
+    border-radius: 55px;
+}
+.artist-container{
+    display: flex;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid rgb(190, 186, 186);
+    margin-top: 10px;
+    transition: transform 0.1s ease-in-out;
+    margin-left: 3px;
+}
+.artist-container:hover{
+    transform: translateY(-7px);
+}
+.artist-alias{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.like-button{
+    position: relative;
+    top: 0px;
+    left: 240px;
+}
+.like-button:active{
+transform: translateY(-2px);
+}
+
+.dislike-button{
+   position: relative;
+   top: -23px;
+   left: 280px;
+}
+.dislike-button:active{
+transform: translateY(3px);
+}
+.aboutPage{
+    line-height: 2;
+}
+.whatsapp-container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 300px;
+}
+.footer {
+    text-align: center; 
+    color: gray; 
+    margin-top: 30px;
+}
+.hamburger-menu{
+    width: 30px;
+    margin-right: 13px;
+}
+.offcanvas-container {
+    background-color: black;
+    color: gray;
+}
+.offcanvas-body {
+    height: 800px;
+}
+.menu-options {
+margin-bottom: 20px;
+display: flex;
+justify-content: space-evenly;
+border: 1px solid rgb(12, 12, 12);
+border-radius: 6px;
+}
+#reset-button {
+background-color: white;
+padding: 10px;
+}
+
+/* ================================================= AUTHOR KABWE CHISHIBE ========================================= */

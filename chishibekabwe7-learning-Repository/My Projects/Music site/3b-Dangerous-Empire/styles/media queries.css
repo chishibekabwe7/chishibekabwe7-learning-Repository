@@ -1,0 +1,602 @@
+/* Mobile Devices (Iphone 5,5s,SE first Gen) */
+@media screen and (max-width: 320px){
+
+       body{
+        overflow-x: hidden;
+      }
+       .Navigation-bar{
+         width: 320px;
+         font-size: 4px;
+         background-color: rgb(8, 4, 8);
+         color: white;
+         display: flex;
+         height: 55px;
+      }
+      .hamburger-menu {
+            width: 20px;
+            margin-left: 12px;
+      }
+      .social-media-icon{
+        width: 25px;
+        margin: 8px;
+      }
+
+      .title {
+      font-size: 21px;
+      margin-left: 0px;
+      margin-right: 0px;
+      }
+      .offcanvas-container {
+      background-color: black;
+      color: gray;
+      
+      }
+      #offcanvasExample{
+      width: 320px;
+      height: 1000px;
+      }
+      .front-page {
+            height: 200px;
+            visibility: hidden;
+      }
+      .frontpreview {
+           width: 320px;
+      }
+      
+      .Sidebar {
+            color: white;
+            width: 10px;
+            visibility: hidden;
+      }
+      .music-card {
+          width: 250px;
+          border-style: none;
+      }
+      .like-button {
+            visibility: hidden;
+      }
+      .dislike-button{
+            visibility: hidden;
+      }
+        
+}
+
+/* Mobile Devices (Samsung Galaxy S5)*/
+@media screen and (min-width:321px) and (max-width:360px){
+      body{
+        overflow-x: hidden;
+      }
+       .Navigation-bar{
+         width: 360px;
+         font-size: 4px;
+         background-color: rgb(8, 4, 8);
+         color: white;
+         display: flex;
+         height: 55px;
+      }
+      .hamburger-menu {
+            width: 20px;
+            margin-left: 12px;
+      }
+      .social-media-icon{
+        width: 25px;
+        margin: 8px;
+      }
+
+      .title {
+      font-size: 24px;
+      margin-left: 0px;
+      margin-right: 0px;
+      }
+      .offcanvas-container {
+      background-color: black;
+      color: gray;
+      
+      }
+      #offcanvasExample{
+      width: 320px;
+      height: 1500px;
+      }
+      .front-page {
+            height: 200px;
+            visibility: hidden;
+      }
+      .frontpreview {
+           width: 320px;
+      }
+      
+      .Sidebar {
+            color: white;
+            width: 10px;
+            visibility: hidden;
+      }
+      .music-card {
+          width: 250px;
+          border-style: none;
+      }
+      .like-button {
+            visibility: hidden;
+      }
+      .dislike-button{
+            visibility: hidden;
+      }
+        
+}
+
+/* Mobile Devices (Iphone 6,7,8) */
+@media screen and (min-width: 361px) and (max-width:375px) {
+
+     body{
+        overflow-x: hidden;
+      }
+       .Navigation-bar{
+         width: 375px;
+         font-size: 4px;
+         background-color: rgb(8, 4, 8);
+         color: white;
+         display: flex;
+         height: 55px;
+      }
+      .hamburger-menu {
+            width: 20px;
+            margin-left: 12px;
+      }
+      .social-media-icon{
+        width: 25px;
+        margin: 8px;
+      }
+
+      .title {
+      font-size: 27px;
+      margin-left: 0px;
+      margin-right: 0px;
+      }
+      .offcanvas-container {
+      background-color: black;
+      color: gray;
+      
+      }
+      #offcanvasExample{
+      width: 320px;
+      height: 1500px;
+      }
+      .front-page {
+            height: 200px;
+            visibility: hidden;
+      }
+      .frontpreview {
+           width: 320px;
+      }
+      
+      .Sidebar {
+            color: white;
+            width: 10px;
+            visibility: hidden;
+      }
+      .music-card {
+          width: 250px;
+          border-style: none;
+      }
+      .like-button {
+            visibility: hidden;
+      }
+      .dislike-button{
+            visibility: hidden;
+      }
+        
+}
+
+
+/* Mobile Devices */
+@media screen and (min-width:376px) and (max-width:384px){
+
+     body{
+        overflow-x: hidden;
+      }
+       .Navigation-bar{
+         width: 384px;
+         font-size: 4px;
+         background-color: rgb(8, 4, 8);
+         color: white;
+         display: flex;
+         height: 55px;
+      }
+      .hamburger-menu {
+            width: 20px;
+            margin-left: 12px;
+      }
+      .social-media-icon{
+        width: 25px;
+        margin: 8px;
+      }
+
+      .title {
+      font-size: 24px;
+      margin-left: 0px;
+      margin-right: 0px;
+      }
+      .offcanvas-container {
+      background-color: black;
+      color: gray;
+      
+      }
+      #offcanvasExample{
+      width: 320px;
+      height: 1500px;
+      }
+      .front-page {
+            height: 200px;
+            visibility: hidden;
+      }
+      .frontpreview {
+           width: 320px;
+      }
+      
+      .Sidebar {
+            color: white;
+            width: 10px;
+            visibility: hidden;
+      }
+      .music-card {
+          width: 250px;
+          border-style: none;
+      }
+      .like-button {
+            visibility: hidden;
+      }
+      .dislike-button{
+            visibility: hidden;
+      }
+        
+}
+
+/* Mobile Devices Iphone 12/13 Pro*/
+@media screen and (min-width:385px) and (max-width:390px){
+
+           body{
+        overflow-x: hidden;
+      }
+       .Navigation-bar{
+         width: 390px;
+         font-size: 4px;
+         background-color: rgb(8, 4, 8);
+         color: white;
+         display: flex;
+         height: 55px;
+      }
+      .hamburger-menu {
+            width: 20px;
+            margin-left: 12px;
+      }
+      .social-media-icon{
+        width: 25px;
+        margin: 8px;
+      }
+
+      .title {
+      font-size: 25px;
+      margin-left: 0px;
+      margin-right: 0px;
+      }
+      .offcanvas-container {
+      background-color: black;
+      color: gray;
+      
+      }
+      #offcanvasExample{
+      width: 320px;
+      height: 1300px;
+      }
+      .front-page {
+            height: 200px;
+            visibility: hidden;
+      }
+      .frontpreview {
+           width: 320px;
+      }
+      
+      .Sidebar {
+            color: white;
+            width: 10px;
+            visibility: hidden;
+      }
+      .music-card {
+          width: 250px;
+          border-style: none;
+      }
+      .like-button {
+            visibility: hidden;
+      }
+      .dislike-button{
+            visibility: hidden;
+      }
+}
+
+/* Mobile Devices iphone XR (414px) */
+@media screen and (min-width:391px) and (max-width:414px) {
+           body{
+        overflow-x: hidden;
+      }
+       .Navigation-bar{
+         width: 414px;
+         font-size: 4px;
+         background-color: rgb(8, 4, 8);
+         color: white;
+         display: flex;
+         height: 55px;
+      }
+      .hamburger-menu {
+            width: 20px;
+            margin-left: 12px;
+      }
+      .social-media-icon{
+        width: 25px;
+        margin: 8px;
+      }
+
+      .title {
+      font-size: 25px;
+      margin-left: 0px;
+      margin-right: 0px;
+      }
+      .offcanvas-container {
+      background-color: black;
+      color: gray;
+      
+      }
+      #offcanvasExample{
+      width: 320px;
+      height: 1700px;
+      }
+      .front-page {
+            height: 200px;
+            visibility: hidden;
+      }
+      .frontpreview {
+           width: 320px;
+      }
+      
+      .Sidebar {
+            color: white;
+            width: 10px;
+            visibility: hidden;
+      }
+      .music-card {
+          width: 250px;
+          border-style: none;
+      }
+      .like-button {
+            visibility: hidden;
+      }
+      .dislike-button{
+            visibility: hidden;
+      }
+}
+
+/* Mobile Devices IPhone 12/13 Pro Max */
+@media screen and (min-width:415px) and (max-width:428px){
+      body{
+            overflow-x: hidden;
+          }
+           .Navigation-bar{
+             width: 428px;
+             font-size: 4px;
+             background-color: rgb(8, 4, 8);
+             color: white;
+             display: flex;
+             height: 55px;
+          }
+          .hamburger-menu {
+                width: 20px;
+                margin-left: 12px;
+          }
+          .social-media-icon{
+            width: 25px;
+            margin: 8px;
+          }
+    
+          .title {
+          font-size: 27px;
+          margin-left: 0px;
+          margin-right: 0px;
+          }
+          .offcanvas-container {
+          background-color: black;
+          color: gray;
+          
+          }
+          #offcanvasExample{
+          width: 320px;
+          height: 1700px;
+          }
+          .front-page {
+                height: 200px;
+                visibility: hidden;
+          }
+          .frontpreview {
+               width: 320px;
+          }
+          
+          .Sidebar {
+                color: white;
+                width: 10px;
+                visibility: hidden;
+          }
+          .music-card {
+              width: 250px;
+              border-style: none;
+          }
+          .like-button {
+                visibility: hidden;
+          }
+          .dislike-button{
+                visibility: hidden;
+          }
+}
+
+
+/* Tablets Nexus 7 Android 6.0.1*/
+@media screen and (min-width: 429px) and (max-width:600px) {
+      
+        body {
+            overflow-x: hidden;
+          }
+           .Navigation-bar{
+             width: 600px;
+             font-size: 4px;
+             background-color: rgb(8, 4, 8);
+             color: white;
+             display: flex;
+             height: 55px;
+          }
+          .hamburger-menu {
+                width: 26px;
+                margin-left: 12px;
+          }
+          .social-media-icon{
+            width: 25px;
+            margin: 8px;
+          }
+    
+          .title {
+          font-size:35px;
+          margin-left: 0px;
+          margin-right: 0px;
+          }
+          .offcanvas-container {
+          background-color: black;
+          color: gray;
+          
+          }
+          #offcanvasExample{
+          width: 500px;
+          height: 1700px;
+          }
+          .front-page {
+                height: 200px;
+                visibility: hidden;
+          }
+          .frontpreview {
+               width: 320px;
+          }
+          
+          .Sidebar {
+                color: white;
+                width: 1px;
+                visibility: hidden;
+          }
+          .music-card {
+              width: 370px;
+              border-style: none;
+          }
+          .like-button {
+                visibility: hidden;
+          }
+          .dislike-button{
+                visibility: hidden;
+          }
+}
+
+/* Tablets ipad mini*/
+@media screen and (min-width: 601px) and (max-width: 768px){
+      body {
+            overflow-x: hidden;
+          }
+           .Navigation-bar{
+             width: 768px;
+             font-size: 4px;
+             background-color: rgb(8, 4, 8);
+             color: white;
+             display: flex;
+             height: 55px;
+          }
+          .hamburger-menu {
+                width: 26px;
+                margin-left: 12px;
+          }
+          .social-media-icon{
+            width: 25px;
+            margin: 8px;
+          }
+    
+          .title {
+          font-size:35px;
+          margin-left: 0px;
+          margin-right: 0px;
+          }
+          .offcanvas-container {
+          background-color: black;
+          color: gray;
+          
+          }
+          #offcanvasExample{
+          width: 500px;
+          height: 1700px;
+          }
+          .front-page {
+                height: 200px;
+                visibility: hidden;
+          }
+          .frontpreview {
+               width: 320px;
+          }
+          
+          .Sidebar {
+                color: white;
+                width: 1px;
+                visibility: hidden;
+          }
+          .music-card {
+              width: 370px;
+              border-style: none;
+          }
+          .like-button {
+                visibility: hidden;
+          }
+          .dislike-button{
+                visibility: hidden;
+          }
+}
+
+/* Laptops 1200 pixels*/
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+        .title {
+        font-size: 35px;     
+        margin-left: 0px;
+        margin-right: 0px;
+        }
+         .svg {
+        position: absolute;
+        left: 568px;
+        display: flex;
+        justify-content: center;
+    } 
+        
+}
+/* Laptops 1200 pixels*/
+@media screen and (min-width: 601px) and (max-width: 1280px) {
+        .title {
+        font-size: 35px;     
+        margin-left: 0px;
+        margin-right: 0px;
+        }
+        .svg {
+        position: absolute;
+        left: 568px;
+        display: flex;
+        justify-content: center;
+    } 
+
+}
+
+/* Laptops 1200 pixels*/
+@media screen and (min-width: 601px) and (max-width: 1080px) {
+   .svg {
+        position: absolute;
+        left: 470px;
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+/* ================================================= AUTHOR KABWE CHISHIBE ========================================= */
