@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main (){
     //Arrays
+
     //Declaring an array
     int myNumbers[] = {1,2,3};
 
