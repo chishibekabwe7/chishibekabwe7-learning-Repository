@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 #Declaring a Dictionary array
 my_dict = {
     "brand":"Apple",
