@@ -11,8 +11,8 @@ This repository is specifically used to host all necessary resources needed for 
 4. Javascript.
 5. Java (fundamentals).
 6. Php (hypertext Preprocessor).
-7. C Programming (fundamentals) (Discontinued Learning).
-8. C++ Programming (fundamentals) (Discontinued Learning).
+7. C Programming (fundamentals) (Data Structures & Algorithms) Have been discontinued on January 30th 2024.
+8. C++ Programming (fundamentals) (Data Structures & Algorithms) Have been discontinued on January 30th 2024.
 9. python Programming (fundamentals).
 10. jquery (Discontinued Learning)
 11. Bootstrap.
@@ -23,6 +23,8 @@ This repository is specifically used to host all necessary resources needed for 
 16. Data Structures and Algorithms (DSA).
 17. MongoDB (Atlas).
 18. Firebase Host files.
+19. REST API'S with NodeJS.
+20. ExpressJs Development.
 
 ## Contributing
 This is a learning repository no Pull Requests will be accepted, only by the author.
