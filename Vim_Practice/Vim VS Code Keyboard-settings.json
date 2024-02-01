@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaultsauto[]
+ [
+    {
+        "key":"c",
+        "command":"editor.action.clipboardCopyAction",
+        "when":"editorTextFocus && !editorReadonly"
+    },
+    {
+        "key":"x",
+        "command":"editor.action.clipboardCutAction",
+        "when":"editorTextFocus && !editorReadonly"
+    },
+    {
+        "key":"v",
+        "command":"editor.action.clipboardPasteAction",
+        "when":"editorTextFocus && !editorReadonly"
+    }
+    
+]
