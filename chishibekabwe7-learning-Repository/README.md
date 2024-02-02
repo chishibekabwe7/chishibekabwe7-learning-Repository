@@ -1,5 +1,9 @@
-## My Project
+## My Repository
  Welcome to my Learning Repository.
+
+## My Projects(hosted)
+1.  Major's Electronic Hub Developed by Chishibe Kabwe
+https://major-s-electronic-hub.web.app/
 
 ## Usage
 This repository is specifically used to host all necessary resources needed for my learning process.
