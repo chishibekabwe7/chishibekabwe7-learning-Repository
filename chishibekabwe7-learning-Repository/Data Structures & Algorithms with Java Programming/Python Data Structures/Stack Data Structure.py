@@ -7,12 +7,18 @@ my_stack = []
 my_stack.append(20)
 my_stack.append("Chishibe Kabwe")
 my_stack.append("Male")
+my_stack.append("Digital Creater")
+
+#Poping elements from stack
+Removed_element = my_stack.pop()
+print(f"The Poped element was {Removed_element}!")
+
 
 #Checking if the stack is empty
-if not my_stack:
-    print("Stack is empty")
-else:
+if my_stack:
     print("Stack is not empty")
+else:
+    print("Stack is empty")
 
 #Checking the size of the stack with a variable
 stack_size = len(my_stack)
