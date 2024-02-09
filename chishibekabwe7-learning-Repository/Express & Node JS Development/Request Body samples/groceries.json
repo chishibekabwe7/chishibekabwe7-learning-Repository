@@ -1,0 +1,14 @@
+[
+    {
+        "item":"milk",
+        "quantity":8
+    },
+    {
+        "item":"cereal",
+        "quantity":32
+    },
+    {
+        "item":"pop-tarts",
+        "quantity":23
+    }
+]

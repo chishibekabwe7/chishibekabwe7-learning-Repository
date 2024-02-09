@@ -1,0 +1,72 @@
+openapi: 3.0.0
+info:
+title: Yet Another REST API
+servers:
+- url: 'https://example.com/api'
+components:
+securitySchemes:
+basicAuth:
+type: http
+scheme: basic
+schemas:
+Pool:
+type: string
+example: dev
+ServiceType:
+type: string
+StackName:
+type: string
+pattern: '^[a-zA-Z0-9-]+$'
+example: jd-stack
+StackNew:
+type: object
+properties:
+owner:
+$ref: '#/components/schemas/UserID'
+stackname:
+$ref: '#/components/schemas/StackName'
+version:
+$ref: '#/components/schemas/StackVersion'
+services:
+type: array
+items:
+type: object
+properties:
+type:
+$ref: '#/components/schemas/ServiceType'
+servers:
+type: integer
+minimum: 1
+example: 1
+poolname:$ref: '#/components/schema/Pool'
+StackVersion:
+type: integer
+example: 6
+UserID:
+type: string
+format: email
+example: john.doe@example.com
+security:
+- basicAuth: []
+paths:
+/stacks:
+post:
+description: Creates new stack
+tags:
+- Stacks
+requestBody:
+required: true
+content:
+application/yaml:
+schema:
+$ref: '#/components/schemas/StackNew'
+responses:
+'201':
+description: Created
+content:
+application/json:
+schema:
+type: object
+properties:
+stackname:
+$ref: '#/components/schemas/StackName'
