@@ -40,12 +40,23 @@ const groceryList = [
 //Declaring GET Method
 app.get('/groceries',(req,res) => {
     res.send(groceryList);
-})
+});
+
 
 //Declaring POST Method
 app.post('/groceries', (req,res) => {
     console.log(req.body);
     groceryList.push(req.body)
     res.send(201);
-})
+});
+
+// //Requesting for a single element(Route Parameters)
+
+// app.get('/groceries/:item',(req,res) => {
+//   const { item }  = req.params;
+//   const groceryItem = groceryList.find((g) => g.item === item);
+//   res.send(200);
+// })
+
+
 
