@@ -2,8 +2,15 @@
 show databases;
 use mysampledatabase;
 show tables;
+select * from mysql.user;
 select * from customers;
 select * from employees;
+select * from orderdetails;
+select * from orders;
+select * from offices;
+select * from payments;
+select * from productlines;
+select * from products;
 select distinct * from customers;
 select Customer_ID,First_Name,Last_Name from customers where Customer_ID in(1,2,3);
 select Customer_ID,First_Name,Last_Name from customers where Customer_ID not in(1,2,3);
@@ -15,6 +22,19 @@ select Customer_ID,Full_Name,addressLine1 from customers where Customer_ID is no
 select * from customers limit 50;
 select Customer_ID as ID,Full_Name as NickName from customers;
 select Phone_Number as Mobile_Phone_Number,state as Province from customers;
+select * from orderdetails;
+select max(priceEach) as Maximum_Price from orderdetails;
+select min(priceEach) as Minimum_Price from orderdetails;
+select sum(priceEach) as Total from orderdetails;
+select count(priceEach) as Cumulative_orders from orderdetails;
+select avg(priceEach) as Average from orderdetails;
+select orderDate from orders where orderDate = '2003-05-21';
+select * from orders where orderDate = '2003-05-21';
+select * from Office_View;
+select orderNumber from orderdetails union select orderNumber from orders;
+select orderNumber from orderdetails union all select orderNumber from orders;
+select officeCode from offices where officeCode between 3 and 6;
+select officeCode from offices where officeCode between 1 and 3;
 
 
 /*Data Manipulation Language DML*/
@@ -49,7 +69,27 @@ insert into Categories(Category_ID,Category_Name)values(1,'Groceries'),
 insert into Expenses(Expense_ID,Category_ID,Amount,Date,Description) values (1,1,'100.50','2024-01-15','Weekly groceries'),(2,4,'30.00','2024-01-16','Gas for the car'),(3,5,'50.00','2024-01-18','Dinner with friends'),(4,2,'150.00','2024-01-20','Electricity bill'),(5,3,'1200.00','2024-01-25','Monthly rent'),(6,6,'25.00','2024-01-28','Movie night ');
 select * from Expenses;
 drop table Categories;
+truncate table Categories;
 drop database Expense_Tracker_DB;
+alter table customers add column Race varchar(255);
+alter table cusotmer drop column Race;
+create view Office_View as select officeCode,city,phone,state,country from offices;
+create or replace view Office_View as select officeCode,city,phone,state,country,addressLine1 from offices;
+drop view Office_View;
+
+/*Data Control Language DCL*/
+create user 'Major_DBA'@'localhost' identified by 'Major.321';
+create user 'Major_DBA'@'%' identified by 'Major.321';
+grant grant option on *.* to 'Major_DBA'@'%';
+flush privileges;
+grant create,alter on customers to 'Major_DBA'@'%';
+grant insert on *.* to 'Major_DBA'@'%';
+revoke all on *.* from 'Junior_DBA'@'%';
+rename user 'cj'to'Senior_DBA_CJ';
+drop user 'Major_DBA'@'%';
+
+
+
 
 
 /*===========================Author ChishibeKabwe7  @Github===================================================*/
