@@ -29,6 +29,7 @@ This repository is specifically used to host all necessary resources needed for 
 18. Firebase Host files.
 19. REST API'S with NodeJS.
 20. ExpressJs Development.
+21. Jupyter Notebook(For Python).
 
 ## Contributing
 This is a learning repository no Pull Requests will be accepted, only by the author.
