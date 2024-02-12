@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# 1. Queue Data Structure with Lists
+
 #Declaring a Queue Data Structure with a list
 my_queue = []
 
