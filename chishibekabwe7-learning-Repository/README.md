@@ -2,8 +2,21 @@
  Welcome to my Learning Repository.
 
 ## My Projects(hosted)
-1.  Major's Electronic Hub Developed by Chishibe Kabwe
-https://major-s-electronic-hub.web.app/
+1.  [ Major's Electronic Hub ] Developed by Chishibe Kabwe.
+[Live Preview](https://major-s-electronic-hub.web.app/)
+
+
+![Major's Electronic Hub](./images/Major's%20Electronic%20Hub.png)
+
+
+
+2. [ Kay Graphics ] Developed by Chishibe Kabwe.
+(Will be hosted soon!)
+
+
+
+![Kay Graphics](./images/Kay%20Graphics.png)
+
 
 ## Usage
 This repository is specifically used to host all necessary resources needed for my learning process.
