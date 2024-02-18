@@ -1,0 +1,381 @@
+2024-02-18 14:49:58.495 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-02-18 14:49:58.495 [info] Auto Sync is disabled.
+2024-02-18 15:05:16.003 [info] Sync started.
+2024-02-18 15:05:17.531 [info] Did reset the local sync state.
+2024-02-18 15:05:17.557 [info] Settings: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:17.558 [info] Settings: Last sync data state does not exist.
+2024-02-18 15:05:17.790 [info] GlobalState: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:17.791 [info] GlobalState: Last sync data state does not exist.
+2024-02-18 15:05:17.876 [info] Settings: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:17.877 [info] Settings: Last sync data state does not exist.
+2024-02-18 15:05:18.338 [info] Keybindings: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:18.339 [info] Keybindings: Last sync data state does not exist.
+2024-02-18 15:05:18.664 [info] Snippets: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:18.664 [info] Snippets: Last sync data state does not exist.
+2024-02-18 15:05:18.962 [info] Tasks: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:18.963 [info] Tasks: Last sync data state does not exist.
+2024-02-18 15:05:19.272 [info] GlobalState: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:19.274 [info] GlobalState: Last sync data state does not exist.
+2024-02-18 15:05:19.899 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:19.900 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:20.526 [info] Profiles: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:20.527 [info] Profiles: Last sync data state does not exist.
+2024-02-18 15:05:20.830 [info] Profiles: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:20.832 [info] Profiles: Last sync data state does not exist.
+2024-02-18 15:05:20.904 [info] Settings: Updated local settings
+2024-02-18 15:05:20.957 [info] Settings: Updated last synchronized settings
+2024-02-18 15:05:20.961 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:05:21.015 [info] Keybindings: Updated last synchronized keybindings
+2024-02-18 15:05:21.017 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:05:21.066 [info] Snippets: Updated last synchronized snippets
+2024-02-18 15:05:21.079 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:05:21.152 [info] Tasks: Updated last synchronized tasks
+2024-02-18 15:05:21.217 [info] GlobalState: Updated global state ["workbench.welcomePage.walkthroughMetadata","workbench.panel.alignment","ces/skipSurvey","nps/isCandidate","nps/skipVersion","workbench.view.extensions.state.hidden","fileBasedRecommendations/promptedRecommendations","remoteTunnelServicePromptedPreview","remoteTunnelServiceUsed","workbench.view.extension.thunder-client.state.hidden","workbench.view.extension.test.state.hidden","workbench.view.extension.package-explorer.state.hidden","extensionsAssistant/deprecated","workbench.view.extension.spring.state.hidden","workbench.view.extension.github-cweijan-mysql.state.hidden","workbench.view.extension.github-cweijan-nosql.state.hidden","workbench.view.extension.gitlens.state.hidden","workbench.view.extension.sqltoolsActivityBarContainer.state.hidden","workbench.view.extension.sqltoolsPanelContainer.state.hidden","workbench.view.extension.dockerView.state.hidden","menu.hiddenCommands","terminal.integrated.showTerminalConfigPrompt","cpp.1.editedCount","cpp.1.editedDate","java.2.editedCount","java.2.editedDate","tabs-list-width-horizontal","workbench.view.extension.gitlensPanel.state.hidden","workbench.view.extension.power-platform-activitybar.state.hidden","workbench.view.extension.gitlensInspect.state.hidden","sqltools-driver-credentials-'cj' on 'cj'","workbench.view.extension.todo-tree-container.state.hidden","javascript.1.editedCount","javascript.1.editedDate","sqltools-driver-credentials-'cj' on 'MySQL-Connection-Chishibe Kabwe'","workbench.view.extension.postgres-explorer.state.hidden","workbench.view.extension.chatgpt-activitybar.state.hidden","workbench.welcomePage.hiddenCategories","commandPalette.mru.cache","commandPalette.mru.counter","workbench.view.extension.github-pull-requests.state.hidden","workbench.view.extension.github-pull-request.state.hidden","workbench.view.remote.state.hidden","remote.explorerType","github-chishibekabwe7","java.2.isCandidate","memento/workbench.editor.keybindings","java.2.skipVersion","javascript.1.isCandidate","workbench.view.extension.mongoDB.state.hidden","views.customizations","javascript.1.skipVersion","cpp.1.isCandidate","workbench.views.service.sidebar.85e32d40-a599-4f1e-9731-e076ab39cd51.state.hidden","workbench.view.extension.sidebar-panel.state.hidden","workbench.view.extension.postman-console-view-container.state.hidden","snippets.usageTimestamps","memento/notebookGettingStarted2","workbench.view.extension.jupyter-variables.state.hidden","workbench.explorer.views.state.hidden","workbench.scm.views.state.hidden","workbench.activity.pinnedViewlets2","memento/gettingStartedService","workbench.panel.pinnedPanels","cpp.1.lastSessionDate","cpp.1.sessionCount","java.2.lastSessionDate","java.2.sessionCount","javascript.1.lastSessionDate","javascript.1.sessionCount","typescript.1.lastSessionDate","typescript.1.sessionCount","csharp.1.lastSessionDate","csharp.1.sessionCount","workbench.view.debug.state.hidden","colorThemeData","workbench.statusbar.hidden","nps/lastSessionDate","nps/sessionCount"]
+2024-02-18 15:05:21.217 [info] GlobalState: Updated local ui state
+2024-02-18 15:05:21.248 [info] GlobalState: Updated last synchronized ui state
+2024-02-18 15:05:24.813 [info] Extensions: Disabled extension dracula-theme.theme-dracula 2.24.3
+2024-02-18 15:05:24.828 [info] Extensions: Disabled extension s-nlf-fh.glassit 0.2.6
+2024-02-18 15:05:25.090 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:25.091 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:25.489 [info] Extensions: Disabled extension ms-vscode.cpptools-themes 2.0.0
+2024-02-18 15:05:25.494 [info] Extensions: Disabled extension thedavej.night-owl-black 1.3.1
+2024-02-18 15:05:25.523 [info] Extensions: Disabled extension ancientlord.nightowl-theme 0.10.9
+2024-02-18 15:05:25.592 [info] Extensions: Disabled extension ecmel.vscode-html-css 2.0.9
+2024-02-18 15:05:25.598 [info] Extensions: Disabled extension vadimcn.vscode-lldb 1.10.0
+2024-02-18 15:05:25.606 [info] Extensions: Disabled extension zivit.one-dark 0.1.2
+2024-02-18 15:05:25.691 [info] Extensions: Disabled extension franneck94.c-cpp-runner 9.4.7
+2024-02-18 15:05:25.704 [info] Extensions: Disabled extension caolin.java-run 1.1.4
+2024-02-18 15:05:25.709 [info] Extensions: Disabled extension twxs.cmake 0.0.17
+2024-02-18 15:05:25.969 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:25.970 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:26.287 [info] Extensions: Disabled extension xabikos.javascriptsnippets 1.8.0
+2024-02-18 15:05:26.304 [info] Extensions: Disabled extension danielpinto8zz6.c-cpp-compile-run 1.0.58
+2024-02-18 15:05:26.306 [info] Extensions: Disabled extension vmware.vscode-boot-dev-pack 0.2.1
+2024-02-18 15:05:26.322 [info] Extensions: Disabled extension streetsidesoftware.code-spell-checker 3.0.1
+2024-02-18 15:05:26.327 [info] Extensions: Disabled extension shardulm94.trailing-spaces 0.4.1
+2024-02-18 15:05:26.568 [info] Extensions: Disabled extension mechatroner.rainbow-csv 3.11.0
+2024-02-18 15:05:26.579 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:26.580 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:26.827 [info] Extensions: Disabled extension mtxr.sqltools-driver-mysql 0.6.0
+2024-02-18 15:05:26.835 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:26.835 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:26.836 [info] Extensions: Disabled extension formulahendry.vscode-mysql 0.5.0
+2024-02-18 15:05:26.841 [info] Extensions: Disabled extension akamud.vscode-theme-onedark 2.3.0
+2024-02-18 15:05:27.020 [info] Extensions: Disabled extension redhat.fabric8-analytics 0.9.2
+2024-02-18 15:05:27.035 [info] Extensions: Disabled extension zhuangtongfa.material-theme 3.16.2
+2024-02-18 15:05:27.104 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:27.104 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:27.291 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:27.291 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:27.323 [info] Extensions: Disabled extension zignd.html-css-class-completion 1.20.0
+2024-02-18 15:05:27.328 [info] Extensions: Disabled extension mtxr.sqltools 0.28.1
+2024-02-18 15:05:27.535 [info] Extensions: Disabled extension ms-vscode.cpptools-extension-pack 1.3.0
+2024-02-18 15:05:27.542 [info] Extensions: Disabled extension sdras.night-owl 2.0.1
+2024-02-18 15:05:27.543 [info] Extensions: Disabled extension gerane.theme-dark-dracula 0.0.5
+2024-02-18 15:05:27.544 [info] Extensions: Disabled extension re7rix2.50-shades-of-purple 1.0.8
+2024-02-18 15:05:27.568 [info] Extensions: Disabled extension ahmadawais.shades-of-purple 7.2.0
+2024-02-18 15:05:27.585 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:27.586 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:27.824 [info] Extensions: Disabled extension monokai.theme-monokai-pro-vscode 1.2.2
+2024-02-18 15:05:27.827 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:27.828 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:27.831 [info] Extensions: Disabled extension killidia.darcula-mono 1.0.0
+2024-02-18 15:05:28.091 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:28.092 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:28.125 [info] Extensions: Disabled extension wallabyjs.quokka-vscode 1.0.627
+2024-02-18 15:05:28.387 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:28.388 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:28.654 [info] Extensions: Disabled extension donjayamanne.javadebugger 0.1.5
+2024-02-18 15:05:28.871 [info] Extensions: Disabled extension cweijan.vscode-mysql-client2 7.0.4
+2024-02-18 15:05:28.910 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:28.910 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:29.130 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:29.130 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:29.160 [info] Extensions: Disabled extension dbaeumer.vscode-eslint 2.4.4
+2024-02-18 15:05:29.168 [info] Extensions: Disabled extension aeschli.vscode-css-formatter 1.0.2
+2024-02-18 15:05:29.186 [info] Extensions: Disabled extension ms-vscode.vscode-typescript-next 5.4.20240217
+2024-02-18 15:05:29.384 [info] Extensions: Disabled extension ms-vscode-remote.remote-wsl 0.86.0
+2024-02-18 15:05:29.402 [info] Extensions: Disabled extension christian-kohler.path-intellisense 2.8.5
+2024-02-18 15:05:29.447 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:29.448 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:29.658 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:29.659 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:30.449 [info] Extensions: Disabled extension k3a.theme-dark-plus-contrast 1.76.0
+2024-02-18 15:05:30.452 [info] Extensions: Disabled extension emroussel.atom-icons 1.2.0
+2024-02-18 15:05:30.456 [info] Extensions: Disabled extension jtlowe.vscode-icon-theme 1.6.6
+2024-02-18 15:05:30.713 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:30.715 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:31.987 [info] Extensions: Disabled extension philsinatra.macos-dark-mode-theme 1.1.3
+2024-02-18 15:05:31.994 [info] Extensions: Disabled extension ckolkman.vscode-postgres 1.4.3
+2024-02-18 15:05:32.003 [info] Extensions: Disabled extension gruntfuggly.todo-tree 0.0.226
+2024-02-18 15:05:32.247 [info] Extensions: Disabled extension hediet.vscode-drawio 1.6.6
+2024-02-18 15:05:32.252 [info] Extensions: Disabled extension bigmodelingtools.erdiagram 0.5.0
+2024-02-18 15:05:32.261 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:32.261 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:32.509 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:32.510 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:36.949 [info] Extensions: Disabled extension wayou.file-icons-mac 1.0.1
+2024-02-18 15:05:37.053 [info] Extensions: Disabled extension catppuccin.catppuccin-vsc-icons 1.9.0
+2024-02-18 15:05:37.641 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:37.642 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:37.855 [info] Extensions: Disabled extension zhang-renyang.chat-gpt 1.6.63
+2024-02-18 15:05:38.207 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:38.208 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:42.649 [info] Extensions: Disabled extension ms-ossdata.vscode-postgresql 0.3.0
+2024-02-18 15:05:42.890 [info] Extensions: Disabled extension felipecaputo.git-project-manager 1.8.2
+2024-02-18 15:05:42.906 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:42.908 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:05:43.142 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:05:43.143 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:06:04.794 [info] Extensions: Disabled extension redhat.java 1.28.1
+2024-02-18 15:06:05.053 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:06:05.054 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:06:11.567 [info] Extensions: Disabled extension ms-vscode.cpptools 1.18.5
+2024-02-18 15:06:11.833 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:06:11.833 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:06:20.311 [info] Extensions: Disabled extension redhat.vscode-xml 0.26.1
+2024-02-18 15:06:20.570 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:06:20.571 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:06:22.491 [info] Extensions: Disabled extension github.remotehub 0.62.0
+2024-02-18 15:06:22.500 [error] Failed: net::ERR_HTTP2_PROTOCOL_ERROR
+    at q.B (/snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:144489)
+    at async q.z (/snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:141404)
+    at async q.getExtensions (/snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:138444)
+    at async /snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:111:30972
+    at async Promise.all (index 132)
+    at async Object.J [as settled] (/snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:41:23698)
+    at async /snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:111:30297
+    at async /snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:111:34035
+    at async R.updateLocalExtensions (/snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:111:30269)
+    at async y.tb (/snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:111:27565)
+    at async y.ab (/snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:111:15032)
+    at async y.apply (/snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:111:10311)
+    at async a.apply (/snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:111:112004)
+    at async r.R (/snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:111:103684)
+    at async Object.apply (/snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:111:102270)
+    at async g.call (/snap/code/152/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:111:114941)
+2024-02-18 15:06:22.500 [error] extensions: net::ERR_HTTP2_PROTOCOL_ERROR
+2024-02-18 15:06:22.501 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:06:22.565 [info] Profiles: Updated last synchronized profiles.
+2024-02-18 15:06:22.570 [info] Sync done. Took 66571ms
+2024-02-18 15:06:22.651 [info] Auto Sync: Triggered by Interval
+2024-02-18 15:06:22.652 [info] Sync started.
+2024-02-18 15:06:22.908 [info] Extensions: Migrating last sync user data. Resource does not exist.
+2024-02-18 15:06:22.910 [info] Extensions: Last sync data state does not exist.
+2024-02-18 15:06:23.421 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:06:23.433 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:06:23.442 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:06:23.453 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:06:24.761 [info] GlobalState: Updated remote ui state. Updated: workbench.activity.pinnedViewlets2,memento/gettingStartedService.
+2024-02-18 15:06:24.869 [info] GlobalState: Updated last synchronized ui state
+2024-02-18 15:06:24.872 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:06:24.877 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:06:24.891 [info] Sync done. Took 2234ms
+2024-02-18 15:06:25.338 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:06:25.339 [info] Sync started.
+2024-02-18 15:06:25.645 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:06:25.677 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:06:25.689 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:06:25.696 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:06:25.712 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:06:25.716 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:06:25.718 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:06:25.721 [info] Sync done. Took 383ms
+2024-02-18 15:06:47.029 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:06:47.030 [info] Sync started.
+2024-02-18 15:06:47.363 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:06:47.372 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:06:47.379 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:06:47.386 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:06:47.396 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:06:47.399 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:06:47.401 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:06:47.406 [info] Sync done. Took 375ms
+2024-02-18 15:06:51.391 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:06:51.393 [info] Sync started.
+2024-02-18 15:06:51.681 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:06:51.692 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:06:51.710 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:06:51.721 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:06:53.036 [info] GlobalState: Updated remote ui state. Updated: memento/gettingStartedService.
+2024-02-18 15:06:53.119 [info] GlobalState: Updated last synchronized ui state
+2024-02-18 15:06:53.121 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:06:53.125 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:06:53.131 [info] Sync done. Took 1740ms
+2024-02-18 15:07:07.423 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:07:07.431 [info] Sync started.
+2024-02-18 15:07:07.901 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:07:08.574 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:07:08.980 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:07:09.027 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:07:10.497 [info] GlobalState: Updated remote ui state. Updated: cpp.1.lastSessionDate,cpp.1.sessionCount,typescript.1.lastSessionDate,typescript.1.sessionCount,csharp.1.lastSessionDate,csharp.1.sessionCount,colorThemeData,workbench.statusbar.hidden.
+2024-02-18 15:07:10.620 [info] GlobalState: Updated last synchronized ui state
+2024-02-18 15:07:10.624 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:07:10.631 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:07:10.642 [info] Sync done. Took 3229ms
+2024-02-18 15:07:10.643 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:07:10.643 [info] Sync started.
+2024-02-18 15:07:10.949 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:07:10.972 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:07:10.980 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:07:10.989 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:07:10.998 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:07:11.000 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:07:11.003 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:07:11.008 [info] Sync done. Took 365ms
+2024-02-18 15:07:45.906 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:07:45.908 [info] Sync started.
+2024-02-18 15:07:46.236 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:07:46.264 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:07:46.271 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:07:46.281 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:07:46.287 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:07:46.288 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:07:46.290 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:07:46.296 [info] Sync done. Took 388ms
+2024-02-18 15:08:41.818 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:08:41.819 [info] Sync started.
+2024-02-18 15:08:42.118 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:08:42.126 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:08:42.136 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:08:42.144 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:08:42.154 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:08:42.156 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:08:42.159 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:08:42.163 [info] Sync done. Took 346ms
+2024-02-18 15:08:48.434 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:08:48.435 [info] Sync started.
+2024-02-18 15:08:48.868 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:08:48.879 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:08:48.893 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:08:48.899 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:08:50.232 [info] GlobalState: Updated remote ui state. Updated: cpp.1.sessionCount.
+2024-02-18 15:08:50.277 [info] GlobalState: Updated last synchronized ui state
+2024-02-18 15:08:50.280 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:08:50.286 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:08:50.295 [info] Sync done. Took 1859ms
+2024-02-18 15:10:28.372 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:10:28.374 [info] Sync started.
+2024-02-18 15:10:28.689 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:10:28.703 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:10:28.713 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:10:28.720 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:10:28.731 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:10:28.735 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:10:28.739 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:10:28.743 [info] Sync done. Took 370ms
+2024-02-18 15:10:38.057 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:10:38.058 [info] Sync started.
+2024-02-18 15:10:38.334 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:10:38.346 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:10:38.364 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:10:38.373 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:10:39.718 [info] GlobalState: Updated remote ui state. Added: workbench.view.sync.state.hidden.
+2024-02-18 15:10:39.767 [info] GlobalState: Updated last synchronized ui state
+2024-02-18 15:10:39.768 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:10:39.773 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:10:39.775 [info] Sync done. Took 1717ms
+2024-02-18 15:12:02.930 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:12:02.931 [info] Sync started.
+2024-02-18 15:12:03.262 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:12:03.273 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:12:03.284 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:12:03.293 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:12:03.301 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:12:03.302 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:12:03.304 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:12:03.311 [info] Sync done. Took 380ms
+2024-02-18 15:13:16.645 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:13:16.646 [info] Sync started.
+2024-02-18 15:13:17.100 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:13:17.108 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:13:17.116 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:13:17.122 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:13:17.132 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:13:17.134 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:13:17.137 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:13:17.143 [info] Sync done. Took 498ms
+2024-02-18 15:13:36.741 [info] Auto Sync: Suspended until auth token is available.
+2024-02-18 15:13:36.742 [info] Auto Sync: Stopped
+2024-02-18 15:14:03.259 [info] Auto Sync: Triggered by Interval
+2024-02-18 15:14:03.261 [info] Sync started.
+2024-02-18 15:14:04.059 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:14:04.067 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:14:04.077 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:14:04.083 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:14:06.022 [info] GlobalState: Updated remote ui state. Removed: github-chishibekabwe7.
+2024-02-18 15:14:06.073 [info] GlobalState: Updated last synchronized ui state
+2024-02-18 15:14:06.075 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:14:06.080 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:14:06.092 [info] Sync done. Took 2828ms
+2024-02-18 15:14:06.094 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:14:06.095 [info] Sync started.
+2024-02-18 15:14:06.396 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:14:06.418 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:14:06.427 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:14:06.434 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:14:06.443 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:14:06.443 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:14:06.446 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:14:06.452 [info] Sync done. Took 356ms
+2024-02-18 15:14:52.528 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:14:52.529 [info] Sync started.
+2024-02-18 15:14:52.809 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:14:52.819 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:14:52.828 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:14:52.835 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:14:52.847 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:14:52.848 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:14:52.850 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:14:52.861 [info] Sync done. Took 330ms
+2024-02-18 15:15:53.504 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:15:53.504 [info] Sync started.
+2024-02-18 15:15:53.793 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:15:53.803 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:15:53.811 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:15:53.821 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:15:53.831 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:15:53.832 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:15:53.835 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:15:53.838 [info] Sync done. Took 335ms
+2024-02-18 15:18:34.643 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:18:34.644 [info] Sync started.
+2024-02-18 15:18:36.236 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:18:36.248 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:18:36.257 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:18:36.263 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:18:36.271 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:18:36.272 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:18:36.274 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:18:36.277 [info] Sync done. Took 1634ms
+2024-02-18 15:18:46.651 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:18:46.653 [info] Sync started.
+2024-02-18 15:18:48.153 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:18:48.162 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:18:48.170 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:18:48.176 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:18:48.185 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:18:48.186 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:18:48.189 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:18:48.193 [info] Sync done. Took 1543ms
+2024-02-18 15:22:01.013 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:22:01.022 [info] Sync started.
+2024-02-18 15:22:03.649 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:22:03.657 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:22:03.667 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:22:03.674 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:22:03.684 [info] GlobalState: No changes found during synchronizing ui state.
+2024-02-18 15:22:03.685 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:22:03.688 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:22:03.694 [info] Sync done. Took 2679ms
+2024-02-18 15:22:35.744 [info] Auto Sync: Triggered by Activity
+2024-02-18 15:22:35.745 [info] Sync started.
+2024-02-18 15:22:36.050 [info] Settings: No changes found during synchronizing settings.
+2024-02-18 15:22:36.058 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-18 15:22:36.068 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-18 15:22:36.078 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-18 15:22:39.231 [info] GlobalState: Updated remote ui state. Updated: memento/gettingStartedService.
+2024-02-18 15:22:39.292 [info] GlobalState: Updated last synchronized ui state
+2024-02-18 15:22:39.295 [info] Extensions: Skipped synchronizing extensions as it is running already.
+2024-02-18 15:22:39.300 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-18 15:22:39.308 [info] Sync done. Took 3563ms
