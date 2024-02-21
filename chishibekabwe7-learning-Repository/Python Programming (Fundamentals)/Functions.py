@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 #Python3 Functions
 def my_function():
   print("Hello from a function")
