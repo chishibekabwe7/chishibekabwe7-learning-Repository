@@ -5,17 +5,8 @@
 1.  [ Major's Electronic Hub ] Developed by Chishibe Kabwe.
 [Live Preview](https://major-s-electronic-hub.web.app/)
 
-
-![Major's Electronic Hub](./images/Major's%20Electronic%20Hub.png)
-
-
-
 2. [ Kay Graphics ] Developed by Chishibe Kabwe.
 (Will be hosted soon!)
-
-
-
-![Kay Graphics](./images/Kay%20Graphics.png)
 
 
 ## Usage
@@ -49,3 +40,9 @@ This is a learning repository no Pull Requests will be accepted, only if necessa
 
 ## Author
 chishibekabwe7@Github.
+
+## StackOverflow.com [Visit](https://stackoverflow.com/users/21120957/chishibe-kabwe?tab=profile)
+
+## Stackshare.oi [Visit](https://stackshare.io/chishibekabwe7)
+
+## Npmjs.com [Visit](https://www.npmjs.com/~chishibekabwe7)

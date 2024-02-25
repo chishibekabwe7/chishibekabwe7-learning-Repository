@@ -48,4 +48,10 @@ This repository is specifically used to host all necessary resources needed for 
 This is a learning repository no Pull Requests will be accepted, only if necessary.
 
 ## Author
-chishibekabwe7@Github.
+chishibekabwe7@github.com
+
+## StackOverflow.com [Visit](https://stackoverflow.com/users/21120957/chishibe-kabwe?tab=profile)
+
+## Stackshare.oi [Visit](https://stackshare.io/chishibekabwe7)
+
+## Npmjs.com [Visit](https://www.npmjs.com/~chishibekabwe7)
