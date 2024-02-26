@@ -57,7 +57,7 @@ h6 {
 	font-size: 16px;
 }
 .word-color{
-	color:#eb5424
+	color:#e74311
 }
 .title {
 	padding-bottom: 40px;
@@ -86,6 +86,42 @@ h6 {
 	margin-left: 5px;
 	margin-right: 5px;
 	
+}
+.portfolio-button{
+	border-radius: 23px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 70px;
+	padding-right: 70px;
+	color: white;
+	font-weight: bold;
+	background-color: orangered;
+    border-style: none;
+	margin-bottom: 20px;
+}
+.portfolio-button:hover{
+	background-color: rgb(255, 0, 85);
+    border-color: rgb(255, 0, 85);
+    box-shadow: 3px 3px 29px rgba(255, 0, 85, 10);
+	transition: 0.8s;
+}
+.portfolio-button:active{
+	background-color: rgb(255, 0, 85);
+    border-color: rgb(255, 0, 85);
+    box-shadow: 3px 3px 29px rgba(255, 0, 85, 10);
+    transform: translateY(-2px);
+}
+.email-button{
+	border-radius: 23px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 70px;
+	padding-right:70px;
+	color: white;
+	font-weight: bold;
+	background-color: orangered;
+    border-style: none;
+	margin-bottom: 20px;
 }
 /* preloader section */
 .preloader {
@@ -231,7 +267,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	color: #ffffff;
 }
 #work .bg-red {
-	background-color: #eb5424;
+	background-color: #e74311;
 	color: #ffffff;
 }
 #work h3 {
@@ -273,7 +309,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	font-weight: bold;
 }
 #team .team-des {
-	background-color: #eb5424;
+	background-color: #e74311;
 	color: #ffffff;
 	padding: 20px 12px;
 	position: relative;
@@ -292,7 +328,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	line-height: 20px;
 }
 #portfolio h3 {
-	color: #eb5424;
+	color: #e74311;
 	padding-bottom: 60px;
 }
 #portfolio a {
@@ -318,13 +354,15 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-bottom: 120px;
 }
 #price .plan {
-	background: #eb5424;
+	background: #e74311;
 	color: #ffffff;
 	padding: 0 0 60px 0;
+	border: 2px solid #e74311; 
+	margin-bottom: 50px;
 }
 #price .plan .plan_title {
-	background-color: #f6f6f6;
-	color: #202020;
+	background-color:white;
+	color: rgb(158, 158, 158);
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -364,7 +402,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /* contact section */
 #contact {
-	background: #f6f6f6 url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+	background: #000000 url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
 	color: #ffffff;
 	padding-top: 100px;
 	padding-bottom: 80px;
@@ -381,9 +419,10 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 #contact input {
 	height: 50px;
+	color: #000000;
 }
 #contact input[type="submit"] {
-	background-color: #eb5424;
+	background-color: #e74311;
 	color: #ffffff;
 	height: 60px;
 	font-weight: bold;
@@ -408,7 +447,7 @@ footer p {
 	line-height: 20px;
 }
 footer .copyright a {
-	color: #eb5424;
+	color: #e74311;
 }
 .social-icon {
 	padding: 0;
@@ -423,7 +462,7 @@ footer .copyright a {
 .social-icon li a {
 	background: #f8f8f8;
 	border-radius: 100%;
-	color: #eb5424;
+	color: #e74311;
 	font-size: 32px;
 	width: 80px;
 	height: 80px;
