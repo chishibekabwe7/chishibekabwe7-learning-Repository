@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import crud from './crud';
+import Crud from './Crud';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <crud />
+    <Crud />
   </React.StrictMode>
 );
 
