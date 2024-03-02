@@ -19,25 +19,25 @@ measurementId: "G-06TG16DRS3"
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);  
 
-logEvent(analytics, 'page_view', {
-  page_location: 'https://major-s-electronic-hub.web.app/',
-  page_title: "Major's Electronic Hub",
-});
-logEvent(analytics, 'page_view', {
-  page_location: "https://major-s-electronic-hub.web.app/about.html",
-  page_title: "Major's Electronic Hub",
-});
-logEvent(analytics, 'page_view', {
-  page_location: 'https://major-s-electronic-hub.web.app/help.html',
-  page_title: "Major's Electronic Hub",
-});
-logEvent(analytics, 'page_view', {
-  page_location: 'https://major-s-electronic-hub.web.app/contact.html',
-  page_title: "Major's Electronic Hub",
-});
-logEvent(analytics, 'page_view', {
-  page_location: 'https://major-s-electronic-hub.web.app/Projects.html',
-  page_title: "Major's Electronic Hub",
-});
+// logEvent(analytics, 'page_view', {
+//   page_location: 'https://major-s-electronic-hub.web.app/',
+//   page_title: "Major's Electronic Hub",
+// });
+// logEvent(analytics, 'page_view', {
+//   page_location: "https://major-s-electronic-hub.web.app/about.html",
+//   page_title: "Major's Electronic Hub",
+// });
+// logEvent(analytics, 'page_view', {
+//   page_location: 'https://major-s-electronic-hub.web.app/help.html',
+//   page_title: "Major's Electronic Hub",
+// });
+// logEvent(analytics, 'page_view', {
+//   page_location: 'https://major-s-electronic-hub.web.app/contact.html',
+//   page_title: "Major's Electronic Hub",
+// });
+// logEvent(analytics, 'page_view', {
+//   page_location: 'https://major-s-electronic-hub.web.app/Projects.html',
+//   page_title: "Major's Electronic Hub",
+// });
        
 /*================================ Developed by ChishibeKabwe7@Github =============================================================================*/
