@@ -309,7 +309,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	font-weight: bold;
 }
 #team .team-des {
-	background-color: #e74311;
+	background-color: #fc3e04;
 	color: #ffffff;
 	padding: 20px 12px;
 	position: relative;
@@ -321,6 +321,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /* portfolio section */
 #portfolio {
+	background-color: #000000;
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
@@ -349,15 +350,15 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /* price section */
 #price {
-	background: #fff;
+	background: #000000;
 	padding-top: 100px;
 	padding-bottom: 120px;
 }
 #price .plan {
-	background: #e74311;
+	background: #fc3e04;
 	color: #ffffff;
 	padding: 0 0 60px 0;
-	border: 2px solid #e74311; 
+	border: 2px solid #fc3e04; 
 	margin-bottom: 50px;
 }
 #price .plan .plan_title {
@@ -433,7 +434,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /* footer section */
 footer {
-	background: #202020;
+	background: #000000;
 	color: #ffffff;
 	border-bottom: 10px solid #ffffff;
 	padding-top: 60px;
