@@ -81,7 +81,7 @@ a:focus {
 	    justify-content: space-between;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: rgba(255,255,255,0.7);
+	background-color: #ffffff;
 	overflow: auto;
 }
 
@@ -89,8 +89,9 @@ a:focus {
 	float: right;
 	font-size: 1.75rem;
 	padding: 0.75rem;
-	background: rgba(255,255,255,0.7);
-	border-radius: 0;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 6px;
+	border: 2px solid rgb(255, 60, 0);
 	position: absolute;
 	right: 10px;
 	top: 5px;
@@ -220,7 +221,6 @@ button:focus { outline: none; }
     text-align: center;
     padding-top: 10px;
     margin-right: 10px;
-	background-color: #eb5424;
 }
 
 .tm-social-link:hover {
@@ -234,16 +234,16 @@ button:focus { outline: none; }
 	position: absolute;
 	bottom: 0;
 	left: 0;	
-	background-color: #eb5424;
 }
 .tm-footer {
     width: 100%;
     color: white;
     z-index: 1001;
     padding: 0 11px 12px;
+	background-color: #000000;
 }
 
-.tm-social-icons-container { margin-bottom: 30px; }
+.tm-social-icons-container { margin-bottom: 30px;  }
 .cd-hero-slider p:last-child { margin-bottom: 0; }
 
 /* Contact */

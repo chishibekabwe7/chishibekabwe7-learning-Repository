@@ -4,7 +4,7 @@ Developed by Chishibekabwe7 @Github.com
 
 body {
 	background: #f8f8f8;
-	color: #606060;
+	color: #000000;
 	font-family:  roboto,arial;
 	font-size: 16px;
 	font-weight: 400;
@@ -57,7 +57,7 @@ h6 {
 	font-size: 16px;
 }
 .word-color{
-	color:#e74311
+	color:#ff3c00
 }
 .title {
 	padding-bottom: 40px;
@@ -97,7 +97,6 @@ h6 {
 	font-weight: bold;
 	background-color: orangered;
     border-style: none;
-	margin-bottom: 20px;
 }
 .portfolio-button:hover{
 	background-color: rgb(255, 0, 85);
@@ -170,7 +169,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /* home section */
 #home {
-	background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+	background: url('../images/WEB\ cover.jpg') 50% 0 repeat-y fixed;
 	color: #ffffff;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -214,21 +213,21 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	line-height: 40px !important;
 }
 .navbar-default .navbar-nav li a {
-	color: #606060;
+	color: #000000;
 	font-weight: bold;
 	padding-right: 20px;
 	padding-left: 20px;
 	line-height: 40px;
 }
 .navbar-default .navbar-nav li a:hover {
-	color: #eb5424;
+	color: #f73c03;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #606060;
+	color: #000000;
 	background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #eb5424;
+	color: #f13f08;
 	background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -304,7 +303,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	line-height: 10px;
 }
 #team h4 {
-	color: #202020;
+	color: #000000;
 	line-height: 10px;
 	font-weight: bold;
 }
