@@ -201,7 +201,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /* navigation section */
 .navbar-default {
-	background: #fff;
+	background: #000000;
 	border: none;
 	box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.04);
 	margin: 0 !important;
@@ -213,7 +213,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	line-height: 40px !important;
 }
 .navbar-default .navbar-nav li a {
-	color: #000000;
+	color: #ffffff;
 	font-weight: bold;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -223,7 +223,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	color: #f73c03;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #000000;
+	color: #ffffff;
 	background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -231,12 +231,11 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-	border: none;
-	padding-top: 12px;
+	padding-top: 9px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background: #eb5424;
-	border-color: transparent;
+	background: #f5f4f4;
+	border: 2px solid #f13f08;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: transparent;
@@ -245,13 +244,15 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 #intro {
 	padding-top: 180px;
 	padding-bottom: 140px;
+	background-color: #000000;
+	color: #ffffff;
 }
 #intro h4 {
 	padding-bottom: 16px;
 }
 /* work section */
 #work {
-	background-color: #ffffff;
+	background-color: #000000;
 }
 #work .container {
 	width: 100%;
