@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-  --primary: #00B87B;
-  --secondary: #314355;
+  --primary: #FF2989;
+  --secondary: #292929;
   --light: #F2F2F2;
-  --dark: #2C3E50;
+  --dark: #000000;
 }
 
 #spinner {
@@ -24,7 +24,9 @@
     height: 100% !important;
   }
 }
-
+.word-color{
+  color: #FF2989;
+}
 .fw-semi-bold {
   font-weight: 600;
 }
@@ -177,7 +179,7 @@
   top: 50%;
   left: 50%;
   font-size: 90px;
-  background: rgba(44, 62, 80, .9);
+  background: rgba(0, 0, 0, 0.9);
   opacity: 0;
   transition: .5s;
 }
@@ -191,13 +193,24 @@
 }
 
 .portfolio-item i {
-  opacity: 0;
+  opacity: 2;
   transition: .3s;
   transition-delay: .3s;
+  color:#FF2989;
 }
 
 .portfolio-item:hover i {
   opacity: 1;
+  color:white;
+ 
+}
+.portfolio-icons{
+  border-radius:5px; 
+  border-color:#FF2989;
+}
+.portfolio-icons:hover{
+  background-color: #FF2989;
+  border-color: #FF2989;
 }
 
 .testimonial-carousel .owl-dots {
