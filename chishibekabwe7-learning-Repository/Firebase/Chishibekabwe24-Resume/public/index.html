@@ -3,15 +3,471 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/10.8.1/firebase-app-compat.js"></script>
+    <title>Chishibe's Resume</title>
     <!-- Include the Firebase App and Analytics SDKs -->
     <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js"></script>
+      <!-- Favicon -->
+    <link href="./icons/cj-logo.png" rel="icon">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 
   </head>
   <body>
-    <script src="./firebase.js"></script>
+  
+    <!-- Spinner Start 
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        Spinner End -->
+    
+    <!--header-->
+    <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 sticky-lg-top vh-100">
+                    <div class="d-flex flex-column h-100 text-center overflow-auto shadow">
+                        <img class="w-100 img-fluid mb-4" src="img/Chishibe Kabwe-main.jpeg" alt="Image">
+                        <h1 class="text-primary mt-2">Chishibe Kabwe</h1>
+                        <div class="mb-4" style="height: 22px;">
+                            <h4 class="typed-text-output d-inline-block text-light"></h4>
+                            <div class="typed-text d-none">Data Analyst, Web Developer, Front End Developer, Back End Developer, Database Administrator, Information Systems Developer, intermediate Accountant.</div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-auto mb-3">
+                            <a class="btn btn-secondary btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-between border-top">
+                            <a href="./pdf/Chishibe Kabwe's Student Resume.pdf" class="btn w-50 border-end">Download CV</a>
+                            <a href="#contact" class="btn w-50 btn-scroll">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">    
+    <!--header Ends-->
+
+    <!-- About Start -->
+    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+      <div><img style="position: absolute; width:50px; top:10px;" src="./icons/cj-logo.png" alt=""></div>
+        <h1 style="margin-top: 25px;" class="title pb-3 mb-5">About Me</h1>
+        <p>As a passionate software developer,I thrive on turning innovative ideas into functional and user-friendly solutions. I am dedicated to delivering high-quality code that meets the unipue needs of each project. Whether collaborating with a team or diving into solo coding adventures, I bring creativity, problem-solving skills, and a commitment to excellence to every line of code. Let's build something extraordinary together!</p>
+        <div class="row mb-4">
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Name:</span> Chishibe Kabwe
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Birthday:</span> 24 March 2004
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Degree:</span> NIL
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Experience:</span> 3 Years
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Phone:</span> +260 966498398
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Email:</span> chishibekabwe7@gmail.com
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Address:</span> Section 1/9 Roan Luanshya, Copperbelt, Zambia.
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium text-primary">Freelance:</span> Available
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4 col-lg-6 col-xl-4">
+                <div class="d-flex bg-secondary p-4">
+                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">3</h1>
+                    <div class="ps-3">
+                        <p class="mb-0">Years of</p>
+                        <h5 class="mb-0">Experience</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-6 col-xl-4">
+                <div class="d-flex bg-secondary p-4">
+                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">7</h1>
+                    <div class="ps-3">
+                        <p class="mb-0">Happy</p>
+                        <h5 class="mb-0">Clients</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-6 col-xl-4">
+                <div class="d-flex bg-secondary p-4">
+                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">11</h1>
+                    <div class="ps-3">
+                        <p class="mb-0">Complete</p>
+                        <h5 class="mb-0">Projects</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Skills Start -->
+    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+        <h1 class="title pb-3 mb-5">Skills</h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-2">Firebase, HTML & CSS</p>
+                        <p class="mb-2">92%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-2">Bootstrap & Sass</p>
+                        <p class="mb-2">67%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-2">JavaScript, MongoDB & NodeJS</p>
+                        <p class="mb-2">64%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-2">React, MySQL & ExpressJS</p>
+                        <p class="mb-2">56%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-2">Vim & Touch Typing</p>
+                        <p class="mb-2">99%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-2">Python, Pandas, Numpy</p>
+                        <p class="mb-2">85%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills End -->
+
+    <!-- Services Start -->
+                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">Services</h1>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="service-item">
+                                    <i class="fa fa-2x fa-chart-line mx-auto mb-4"></i>
+                                    <h5 class="mb-2">Business Intelligence & Data Analysis</h5>
+                                    <p class="mb-0">Unlock the power of your data with our comprehensive data analysis services. From raw data to
+                                    actionable insights, we leverage advanced analytics tools and techniques to extract meaningful
+                                    patterns, trends, and correlations. I am an expert in data cleaning, statistical analysis, and
+                                    visualization, providing you with a clear understanding of your data landscape. Whether you're
+                                    seeking to optimize processes, make informed decisions, or drive strategic initiatives, My data
+                                    analysis services are tailored to meet your specific needs. Transform your data into a valuable
+                                    asset and gain a competitive edge with our proficient data analysis solutions.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="service-item">
+                                    <i class="fab fa-2x fa-android mx-auto mb-4"></i>
+                                    <h5 class="mb-2">Mobile Application Development</h5>
+                                    <p class="mb-0">Unlocking the potential of your ideas with My top-notch mobile app development services. I
+                                    specialize in crafting seamless and intuitive applications for iOS and Android platforms. From
+                                    conceptualization to deployment, l ensure a user-centric approach, leveraging the latest
+                                    technologies to deliver high-performance, feature-rich mobile apps. Let's transform your vision
+                                    into a cutting-edge mobile experience!
+                                  </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="service-item">
+                                    <i class="fa fa-2x fa-database mx-auto mb-4"></i>
+                                    <h5 class="mb-2">Database Design & Administration</h5>
+                                    <p class="mb-0">I specialize in comprehensive database design and administration services. My expert team
+                                    leverages cutting-edge technologies to create robust and scalable database solutions tailored to
+                                    your specific needs. From conceptualization to optimization, l ensure efficient data management,
+                                    seamless integration, and top-notch security. Trust me to architect, implement, and maintain
+                                    databases that form the backbone of your digital infrastructure. Let's elevate your data
+                                    management to the next level.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="service-item">
+                                    <i class="fa fa-2x fa-code mx-auto mb-4"></i>
+                                    <h5 class="mb-2">Web Development</h5>
+                                    <p class="mb-0">Unlock the full potential of your online presence with My expert web development services. I
+                                    specialize in creating dynamic, responsive, and visually stunning websites tailored to your unique
+                                    needs. From robust backend functionality to intuitive user interfaces, l bring your digital vision to
+                                    life. Whether it's a sleek portfolio, a powerful e-commerce platform, or a custom web application,
+                                    l’m here to elevate your online experience. Let's build something amazing together!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="service-item">
+                                    <i class="fa fa-2x fa-money-bill-wave mx-auto mb-4"></i>
+                                    <h5 class="mb-2">Accounting Services</h5>
+                                  <p class="mb-0">
+                                    Unlock financial clarity with my comprehensive accounting services. From meticulous
+                                    bookkeeping to strategic financial planning, l tailor my expertise to meet your business needs.
+                                    My dedication ensures accuracy, compliance, and actionable insights, empowering you to make
+                                    informed decisions and drive financial success.
+                                    Services:
+                                    <ul>
+                                      <li>Bookkeeping and Financial Reporting</li>
+                                      <li>Tax Planning and Compliance</li>
+                                      <li>Budgeting and Forecasting</li>
+                                      <li>Financial Analysis and Consultation</li>
+                                    </ul>
+                                  </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="service-item">
+                                    <i class="fa fa-2x fa-network-wired mx-auto mb-4"></i>
+                                    <h5 class="mb-2">Information Systems Development</h5>
+                                    <p class="mb-0">Transform your concepts into powerful information systems with My dedicated development
+                                          expertise. I specialize in crafting robust and scalable solutions tailored to your unique
+                                          requirements. From database design to seamless integration, l ensure a smooth development
+                                          process, delivering information systems that empower your business. Elevate your digital
+                                          presence with My comprehensive Information Systems Development services.
+                                          <ul>
+                                            <li>Custom Software Development</li>
+                                            <li>Database Design and Optimization</li>
+                                            <li>System Integration Solutions</li>
+                                            <li>Scalable and Secure Architectures</li>
+                                          </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Services End -->
+
+                    <!-- Portfolio Start -->
+                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">Portfolio</h1>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 text-center mb-2">
+                                        <ul class="list-inline mb-4" id="portfolio-flters">
+                                            <li class="btn btn-secondary active"  data-filter="*"><i class="fa fa-star me-2"></i>All</li>
+                                            <li class="btn btn-secondary" data-filter=".first"><i class="fa fa-laptop-code me-2"></i>Design</li>
+                                            <li class="btn btn-secondary" data-filter=".second"><i class="fa fa-mobile-alt me-2"></i>Development</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row portfolio-container">
+                                    <div class="col-md-6 mb-4 portfolio-item first">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4 portfolio-item second">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4 portfolio-item first">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4 portfolio-item second">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Portfolio End -->
+
+
+                    <!-- Testimonial Start -->
+                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">Testimonial</h1>
+                        <div class="owl-carousel testimonial-carousel">
+                            <div class="text-left">
+                                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                                <p class="fs-4 mb-4">Working with this software developer was a game-changer for our project <a style="color: #00B87B;" href="">Major's Electronic Hub</a>His coding resulted in a seamless and efficient solution. His level of professionalism
+                            and innovation exceeded our expectations. I highly recommend him for any Development needs.</p>
+                                <div class="d-flex align-items-center">
+                                    <img class="img-fluid" src="img/Testimony-Mfuta.jpg" style="width: 60px; height: 60px; border-radius:4px">
+                                    <div class="ps-3">
+                                        <p class="text-primary fs-5 mb-1">Kabwe Mfuta</p>
+                                        <i>IT Specialist</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-left">
+                                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                                <p class="fs-4 mb-4">This software developer went above and beyond in crafting a visually stunning and user-friendly Graphic site <a style="color: #00B87B;" href="">Kay Graphics</a>, for my business. The collaboration was seamless, and the final product exceeded my expectations.</p>
+                                <div class="d-flex align-items-center">
+                                    <img class="img-fluid" src="img/Testimony-kangwa.jpg" style="width: 60px; height: 60px; border-radius:4px">
+                                    <div class="ps-3">
+                                        <p class="text-primary fs-5 mb-1">Chilufya Kangwa</p>
+                                        <i>Graphic Designer</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-left">
+                                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                                <p class="fs-4 mb-4">This developer turned my music dream into a kiler website! <a style="color: #00B87B;"" href="">music site</a> Seriously! the site is not visually appealing but user-friendly too. I highly recommend him.</p>
+                                <div class="d-flex align-items-center">
+                                    <img class="img-fluid" src="img/Testimony-JR.jpg" style="width: 60px; height: 60px; border-radius:4px">
+                                    <div class="ps-3">
+                                        <p class="text-primary fs-5 mb-1">JR</p>
+                                        <i>Musical Artist</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Testimonial End -->
+
+                         <!-- Contact Start -->
+                    <section class="py-5 wow fadeInUp" data-wow-delay="0.1s" id="contact">
+                        <h1 class="title pb-3 mb-5">Contact Me</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-0 bg-secondary" id="name" placeholder="Your Name">
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control border-0 bg-secondary" id="email" placeholder="Your Email">
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-0 bg-secondary" id="subject" placeholder="Subject">
+                                        <label for="subject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control border-0 bg-secondary" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <a href="mailto:chishibekabwe7@gmail.com" class="btn btn-primary w-100 py-3">Send Message</a>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+                    <!-- Contact End -->
+
+                    <!-- Footer Start -->
+                    <section class="wow fadeIn" data-wow-delay="0.1s">
+                        <div class="bg-secondary text-light text-center p-5">
+                            <div class="d-flex justify-content-center mb-4">
+                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-github"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-stack-overflow"></i></a>
+                            </div>
+							
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							<p class="m-0">&copy; Chishibe Kabwe's Resume All Rights Reserved. Designed by Kabwe Chishibe</p>
+                        </div>
+                    </section>
+                    <!-- Footer End -->
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+  <script src="./firebase.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Main Javascript -->
+        <script src="js/main.js"></script>
   </body>
 </html>
