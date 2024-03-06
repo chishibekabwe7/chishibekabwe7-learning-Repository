@@ -39,6 +39,9 @@
     opacity: 1;
 }
 
+.word-color {
+    color: #6244C5;
+}
 
 /*** Button ***/
 .btn {
@@ -107,6 +110,7 @@
 #home {
     margin-bottom: 6rem;
     background: url(../img/bg-header.png) left top no-repeat;
+    background-color: white;
 }
 
 .typed-cursor {
@@ -296,7 +300,9 @@
     opacity: 1;
     padding-bottom: 30px !important;
 }
+.portfolio-card{
 
+}
 
 /*** Team ***/
 .team-item img {
