@@ -8,7 +8,15 @@
 2. [ Kay Graphics ] Developed by Chishibe Kabwe.
 (Will be hosted soon!)
 
+3. [ Music Site ] Developed by Chishibe Kabwe
+ (Will be hosted soon!)
 
+4. [ Chishibe's Resume 7 ] Developed by Chishibe Kabwe
+ (Will be hosted soon!)
+
+5. [ Chishibe's Resume 24 ] Developed by Chishibe Kabwe
+ (Will be hosted soon!)
+ 
 ## Usage
 This repository is specifically used to host all necessary resources needed for my learning process.
 
@@ -39,7 +47,7 @@ This repository is specifically used to host all necessary resources needed for 
 This is a learning repository no Pull Requests will be accepted, only if necessary.
 
 ## Author
-chishibekabwe7@Github.
+chishibekabwe7@github.com
 
 ## StackOverflow.com [Visit](https://stackoverflow.com/users/21120957/chishibe-kabwe?tab=profile)
 
