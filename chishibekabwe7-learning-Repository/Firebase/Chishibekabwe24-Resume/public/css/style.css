@@ -59,6 +59,15 @@
   justify-content: center;
 }
 
+.btn-square,
+.btn-sm-square,
+.btn-lg-square :hover {
+color: white;
+background-color: #FF2989;
+border-style: none;
+}
+
+
 .btn.btn-primary {
   color: #FFFFFF;
 }
@@ -87,7 +96,7 @@
 }
 
 .back-to-top i:hover {
-  color: var(--dark);
+  color: rgb(255, 0, 43);
 }
 
 .back-to-top {
