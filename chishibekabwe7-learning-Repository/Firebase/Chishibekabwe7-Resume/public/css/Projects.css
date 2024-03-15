@@ -1,0 +1,63 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+.project-button{
+	border-radius: 23px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 70px;
+	padding-right: 70px;
+	color: white;
+	font-weight: bold;
+	background-color: #f7b019;
+    border-style: none;
+}
+.project-button:hover{
+	background-color: #6244C5;
+    border-color: #6244C5;
+    box-shadow: 3px 3px 29px rgba(132, 0, 255, 10);
+	transition: 0.8s;
+  color: white;
+}
+.project-button:active{
+	background-color: #6244C5;
+    border-color: #6244C5;
+    box-shadow: 3px 3px 29px rgba(132, 0, 255, 10);
+    transform: translateY(-2px);
+    color: white;
+}
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
