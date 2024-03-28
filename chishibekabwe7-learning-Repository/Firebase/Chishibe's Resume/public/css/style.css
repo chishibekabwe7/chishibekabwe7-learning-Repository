@@ -9753,7 +9753,10 @@ h6,
   padding-right: 0;
   text-align: center;
   border-radius: 45px;
+  background-color: white;
+  color: #09aa90;
 }
+
 
 .form-control {
   border-radius: 25px;
