@@ -3,9 +3,8 @@
     --primary: #009CFF;
     --secondary: #777777;
     --light: #F8F8F8;
-    --dark: #252525;
+    --dark: #494747;
 }
-
 .back-to-top {
     position: fixed;
     display: none;
@@ -13,9 +12,14 @@
     bottom: 30px;
     z-index: 99;
 }
-
 .text-color {
     color: #0093e9;
+}
+.primary-color {
+    color:#747272
+}
+.secondary-color{
+    color: #494747;
 }
 /*** Spinner ***/
 #spinner {
@@ -184,8 +188,9 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/404\ Page.PNG) center center no-repeat;
     background-size: cover;
+    height: 300px;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
