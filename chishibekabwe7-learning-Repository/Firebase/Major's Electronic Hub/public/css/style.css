@@ -297,8 +297,20 @@
     }
 }
 
-.page-header {
-    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/carousel-1.jpg) center center no-repeat;
+.page-header-about {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/About\ us-Cover.PNG) center center no-repeat;
+    background-size: cover;
+}
+.page-header-contact {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/Contact-Cover.PNG) center center no-repeat;
+    background-size: cover;
+}
+.page-header-services {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/Services-Cover.PNG) center center no-repeat;
+    background-size: cover;
+}
+.page-header-team {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/Our\ Team-Cover.PNG) center center no-repeat;
     background-size: cover;
 }
 
@@ -339,22 +351,28 @@
     transition: .5s;
 }
 
-.services-content::after {
+.services-content ::after {
     top: 0;
     bottom: auto;
     border-radius: 10px 10px 10px 10px;
+    color: white;
 }
 
 .services-item:hover .services-content::after {
     height: 100%;
     opacity: 1;
     transition: .5s;
+    color: white;
 }
 
 .services-item:hover .services-content-icon {
     position: relative;
     z-index: 2;
 }
+.services-content li:hover {
+    color: white;
+}
+
 
 .services-item .services-content-icon i,
 .services-item .services-content-icon p {
@@ -364,6 +382,10 @@
 .services-item:hover .services-content-icon i {
     color: var(--bs-secondary) !important;
 }
+.services-item:hover .services-content-icon li {
+    color: white;
+}
+
 
 .services-item:hover .services-content-icon p {
     color: var(--bs-white);
