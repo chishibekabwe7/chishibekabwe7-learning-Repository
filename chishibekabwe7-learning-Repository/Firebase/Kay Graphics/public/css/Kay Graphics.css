@@ -169,7 +169,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /* home section */
 #home {
-	background: url('../images/WEB\ cover.jpg') 50% 0 repeat-y fixed;
+	background: url('../images/Kay\ Graphics\ Logo.JP') 50% 0 repeat-y fixed;
 	color: #ffffff;
 	display: -webkit-box;
 	display: -webkit-flex;
