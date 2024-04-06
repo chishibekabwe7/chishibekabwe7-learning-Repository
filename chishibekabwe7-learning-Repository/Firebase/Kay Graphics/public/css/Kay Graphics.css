@@ -29,6 +29,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Proxima Bold";
 	font-weight: bold;
 }
+a {
+	text-decoration: none;
+	color:inherit;
+}
 p {
 	letter-spacing: 1px;
 	line-height: 28px;
@@ -55,6 +59,9 @@ h5 {
 }
 h6 {
 	font-size: 16px;
+}
+.card-body{
+	margin-bottom: 10px;
 }
 .word-color{
 	color:#ff3c00
@@ -87,6 +94,30 @@ h6 {
 	margin-right: 5px;
 	
 }
+.price-button {
+border-radius: 23px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: white;
+	font-weight: bold;
+	background-color: rgb(12, 12, 12);
+    border-color: #f13f08;
+	color: #f73c03;
+	margin-bottom: 20px;
+    border-style: solid;
+	border-width: 1px;
+	
+}
+.price-button a {
+	text-decoration: none;
+	color:inherit;
+}
+.price-button:hover{
+	color:white;
+
+}
 .portfolio-button{
 	border-radius: 23px;
 	padding-top: 11px;
@@ -110,6 +141,11 @@ h6 {
     box-shadow: 3px 3px 29px rgba(255, 0, 85, 10);
     transform: translateY(-2px);
 }
+.portfolio-button a {
+	text-decoration: none;
+	color:inherit;
+}
+
 .email-button{
 	border-radius: 23px;
 	padding-top: 15px;
@@ -121,6 +157,10 @@ h6 {
 	background-color: orangered;
     border-style: none;
 	margin-bottom: 20px;
+}
+.email-button a{
+	text-decoration: none;
+	color:inherit;
 }
 /* preloader section */
 .preloader {
@@ -360,6 +400,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding: 0 0 60px 0;
 	border: 2px solid #fc3e04; 
 	margin-bottom: 50px;
+	font-weight: bolder;
 }
 #price .plan .plan_title {
 	background-color:white;
@@ -464,14 +505,12 @@ footer .copyright a {
 	background: #f8f8f8;
 	border-radius: 100%;
 	color: #e74311;
-	font-size: 32px;
-	width: 80px;
-	height: 80px;
-	line-height: 80px;
 	text-align: center;
 	text-decoration: none;
 	transition: all 0.4s ease-in-out;
 	margin: 0 6px 40px 6px;
+	padding: 10px;
+	font-size: 20px;
 }
 .social-icon li a:hover {
 	background: #080808;
