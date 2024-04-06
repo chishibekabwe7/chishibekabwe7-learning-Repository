@@ -6,16 +6,22 @@
 [Live Preview](https://major-s-electronic-hub.web.app/)
 
 2. [ Kay Graphics ] Developed by Chishibe Kabwe.
-(Will be hosted soon!)
+[Live Preview](https://kay-graphics.web.app)
 
 3. [ Music Site ] Developed by Chishibe Kabwe
- (Will be hosted soon!)
+[Live Preview](https://b-dangerous-empire-414b1.web.app)
 
 4. [ Chishibe's Resume 7 ] Developed by Chishibe Kabwe
- (Will be hosted soon!)
+ [Live Preview](https://chishibekabwe7-resume.web.app)
 
 5. [ Chishibe's Resume 24 ] Developed by Chishibe Kabwe
- (Will be hosted soon!)
+ [Live Preview](https://chishibekabwe24-resume.web.app/)
+
+6. [ Chishibe's Main Resume ] Developed by Chishibe Kabwe
+[Live Preview](https://chishibes-resume.web.app/)
+   
+7. [ Chishibe's Organization ] Developed by Chishibe Kabwe
+[Live Preview](https://chishibes-organization.web.app)
  
 ## Usage
 This repository is specifically used to host all necessary resources needed for my learning process.
