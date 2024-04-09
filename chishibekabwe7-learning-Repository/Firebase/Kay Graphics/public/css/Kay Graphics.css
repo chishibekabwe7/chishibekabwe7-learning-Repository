@@ -69,6 +69,21 @@ h6 {
 .title {
 	padding-bottom: 40px;
 }
+.social-ico {
+	padding:15px;
+	background-color:#ffffff;
+	color:#ff3c00;
+	border-radius:1px;
+	margin-left: 5px;
+}
+.social-ico:hover{
+	background-color: #000000;
+	color: #f73c03;
+}
+.social-ico:active{
+	background-color: #000000;
+	color: #f73c03;
+}
 .title h2 {
 	color: #202020;
 	line-height: 20px;
