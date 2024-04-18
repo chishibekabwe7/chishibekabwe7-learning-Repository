@@ -188,7 +188,7 @@
 }
 
 .page-header-about {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/About\ Us-Cover.PNG) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/About-Us-Cover.PNG) center center no-repeat;
     background-size: cover;
     height: 300px;
 }
