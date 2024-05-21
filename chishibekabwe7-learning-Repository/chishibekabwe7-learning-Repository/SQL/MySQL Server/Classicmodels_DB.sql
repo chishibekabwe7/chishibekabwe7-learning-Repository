@@ -1,8 +1,9 @@
+/*======================================================[   PROVIDED AND DEVELOPED AT CHISHIBE'S ORGANIZATION LLC  ]===============================================================*/
+/*======================================================[ COPYRIGHT CHISHIBE'S ORGANIZATION LLC'S DATA ASSET  ]===============================================================*/                                                    
 show databases;
-create database Demo_DB;
+create database Classicmodels_DB;
 show databases;
-create database mysampledatabase;
-use mysampledatabase;
+use classicmodels_DB;
 CREATE TABLE customers (
   customerNumber int(11) NOT NULL,
   customerName varchar(50) NOT NULL,
@@ -6375,7 +6376,7 @@ insert  into orders(orderNumber,orderDate,requiredDate,shippedDate,status,commen
 
 (10100,'2003-01-06','2003-01-13','2003-01-10','Shipped',NULL,363),
 
-(10101,'2003-01-09','2003-01-18','2003-01-11','Shipped','Check on availability.',128)
+(10101,'2003-01-09','2003-01-18','2003-01-11','Shipped','Check on availability.',128),
 
 (10102,'2003-01-10','2003-01-18','2003-01-14','Shipped',NULL,181),
 
@@ -7025,14 +7026,6 @@ insert  into orders(orderNumber,orderDate,requiredDate,shippedDate,status,commen
 
 (10425,'2005-05-31','2005-06-07',NULL,'In Process',NULL,119);
 
-CREATE TABLE payments (
-  customerNumber int(11) NOT NULL,
-  checkNumber varchar(50) NOT NULL,
-  paymentDate date NOT NULL,
-  amount decimal(10,2) NOT NULL,
-  PRIMARY KEY (customerNumber,checkNumber)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
 show databases;
 use mysampledatabase;
 
@@ -7061,6 +7054,15 @@ insert  into productlines(productLine,textDescription,htmlDescription,image) val
 ('Trucks and Buses','The Truck and Bus models are realistic replicas of buses and specialized trucks produced from the early 1920s to present. The models range in size from 1:12 to 1:50 scale and include numerous limited edition and several out-of-production vehicles. Materials used include tin, diecast and plastic. All models include a certificate of authenticity from their manufacturers and are a perfect ornament for the home and office.',NULL,NULL),
 
 ('Vintage Cars','Our Vintage Car models realistically portray automobiles produced from the early 1900s through the 1940s. Materials used include Bakelite, diecast, plastic and wood. Most of the replicas are in the 1:18 and 1:24 scale sizes, which provide the optimum in detail and accuracy. Prices range from $30.00 up to $180.00 for some special limited edition replicas. All models include a certificate of authenticity from their manufacturers and come fully assembled and ready for display in the home or office.',NULL,NULL);
+
+CREATE TABLE payments (
+  customerNumber int(11) NOT NULL,
+  checkNumber varchar(50) NOT NULL,
+  paymentDate date NOT NULL,
+  amount decimal(10,2) NOT NULL,
+  PRIMARY KEY (customerNumber,checkNumber)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 
 insert  into payments(customerNumber,checkNumber,paymentDate,amount) values 
 
@@ -7847,7 +7849,8 @@ insert  into products(productCode,productName,productLine,productScale,productVe
 
 ('S72_3212','Pont Yacht','Ships','1:72','Unimax Art Galleries','Measures 38 inches Long x 33 3/4 inches High. Includes a stand.\r\nMany extras including rigging, long boats, pilot house, anchors, etc. Comes with 2 masts, all square-rigged',414,'33.30','54.60');
 
-
+/*======================================================[   PROVIDED AND DEVELOPED AT CHISHIBE'S ORGANIZATION LLC  ]===============================================================*/
+/*======================================================[ COPYRIGHT CHISHIBE'S ORGANIZATION LLC'S DATA ASSET  ]===============================================================*/
 
 
 
