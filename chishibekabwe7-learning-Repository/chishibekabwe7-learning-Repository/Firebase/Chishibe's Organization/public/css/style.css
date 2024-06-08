@@ -12,6 +12,10 @@
     bottom: 30px;
     z-index: 99;
 }
+.brand-display {
+    display: flex;
+    justify-content: center;
+}
 .text-color {
     color: #0093e9;
 }
