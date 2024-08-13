@@ -45,7 +45,23 @@ h6,
     font-weight: 500 !important;
 }
 
+.download-button{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 20px;
+  border: 1px solid rgb(185, 185, 185);
+  font-size: 15px;
+  background-color: white;
+}
+.download-button:hover{
+color: rgb(255, 255, 255);
+background-color: rgb(255, 31, 68);
+border-style: none;
+box-shadow: 5px 4px 20px rgb(253, 52, 102);
 
+}
 /*** Button ***/
 .btn {
     font-weight: 500;
@@ -252,7 +268,8 @@ h6,
     position: relative;
     height: 350px;
     padding: 30px 25px;
-    background: #FFFFFF;
+    background: #000000;
+    color:#FFFFFF;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
 }
@@ -261,7 +278,7 @@ h6,
     font-size:12px;
 }
 .service-item:hover {
-    background: var(--primary);
+    background: black;
 }
 
 .service-item .service-icon {
@@ -276,10 +293,14 @@ h6,
     transition: .5s;
 }
 
+
 .service-item:hover .service-icon {
     color: var(--primary);
-    background: url(../img/icon-shape-white.png);
+    background: var(--primary);
+    background: url(../img/icon-shape-primary.png);
 }
+
+
 
 .service-item h5,
 .service-item p {
