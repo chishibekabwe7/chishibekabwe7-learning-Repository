@@ -1,89 +1,320 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) Starts-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7HR1B0B3FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/10.12.5/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/10.12.5/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/10.12.5/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/10.12.5/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/10.12.5/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/10.12.5/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/10.12.5/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/10.12.5/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/10.12.5/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/10.12.5/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+  gtag('config', 'G-7HR1B0B3FJ');
+</script>
+<!--Google tag Ends-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sichone's Resume</title>
+    <!-- Include the Firebase App and Analytics SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js"></script>
+      <!-- Favicon -->
+    <link href="./icons/Main Logo Gray Large.png" rel="icon">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/Projects.css">
+</head>
+<body style="background-color: #000000;">
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-4 sticky-lg-top vh-100">
+                <div class="d-flex flex-column h-100 text-center overflow-auto shadow">
+                    <img style="margin-top: 10px;" class="w-100 img-fluid mb-4" src="img/Profile.PNG" alt="Image">
+                    <h1 class="mt-2 word-color">Francis Sichone</h1>
+                    <div class="mb-4" style="height: 22px;">
+                        <h4 class="typed-text-output d-inline-block text-light"></h4>
+                        <div class="typed-text d-none">Aspiring Legal practitioner, Legal Apprentice, Aspiring Attorney</div>
+
+                    </div>
+                    <div class="d-flex justify-content-center mt-auto mb-3">
+                            <a class="btn btn-dark btn-square mx-1" href="https://x.com/sichonefrancis?s=21"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-secondary btn-square mx-1" href="https://www.instagram.com/sichonejr/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-secondary btn-square mx-1" href="https://www.linkedin.com/in/mpande-sichone-5777971b2?original_referer=https%3A%2F%2Fzm%2Elinkedin%2Ecom%2F&originalSubdomain=zm"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-secondary btn-square mx-1" href="https://www.facebook.com/share/1HSx6C7fbgfZNHaZ/?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="d-flex align-items-end justify-content-between border-top">
+                        <a target="_blank" href="./pdf/CV (1)_240813_175901.pdf" class="btn w-50 border-end">Download CV</a>
+                        <a href="#contact" class="btn w-50 btn-scroll">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">    
+<!--header Ends-->
+
+ <!-- About Start -->
+     <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+        <h1 style="margin-top: 25px;" class="title pb-3 mb-5">About Me</h1>
+        <p>I am a self motivated and dedicated youth with a sobar mind who aspires to be a lawyer that will find new ways of solving legal issues. I believe in hardwork and determination as keys to achieving anything in life. </p>
+        <div class="row mb-4">
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium word-color">Name:</span> FRANCIS MPANDE SICHONE
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium word-color">Birthday:</span> 22 January 2001
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium word-color">Degree:</span> Bachelors in Law
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium word-color">Experience:</span> 1 year
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium word-color">Phone:</span> +260 978695401
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium word-color">Email:</span> francissichone90@gmail.com
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium word-color">Address:</span> Plot No 125 Meanwood, Mutumbi phase2
+            </div>
+            <div class="col-sm-6 py-1">
+                <span class="fw-medium word-color">Freelance:</span> Available
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4 col-lg-6 col-xl-4">
+                <div class="d-flex bg-secondary p-4">
+                    <h1 class="flex-shrink-0 display-5 mb-0 word-color" data-toggle="counter-up">1</h1>
+                    <div class="ps-3">
+                        <p class="mb-0">Year of</p>
+                        <h5 class="mb-0">Experience</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-6 col-xl-4">
+                <div class="d-flex bg-secondary p-4">
+                    <h1 class="flex-shrink-0 display-5 mb-0 word-color" data-toggle="counter-up">0</h1>
+                    <div class="ps-3">
+                        <p class="mb-0">Happy</p>
+                        <h5 class="mb-0">Clients</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-6 col-xl-4">
+                <div class="d-flex bg-secondary p-4">
+                    <h1 class="flex-shrink-0 display-5 mb-0 word-color" data-toggle="counter-up">0</h1>
+                    <div class="ps-3">
+                        <p class="mb-0">Complete</p>
+                        <h5 class="mb-0">Cases</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+<!-- Skills Start -->
+    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+         <h1 class="display-5 mb-5">Experience</h1>
+
+         <!--First Section-->
+         <h5 class="mb-4 word-color">LEGAL INTERN/LEARNER LEGAL @LIKANDO KALALUKA & CO; JULY 2024 - PRESENT</h5>
+         <h5>My responsibilities are:</h5>
+         <ul>
+            <li>Draft legal documents, including contracts and motions.</li>
+            <li>File court documents and ensure compliance with deadlines.</li>
+            <li>Conduct legal research and case analysis.</li>
+            <li>Assist in trial preparation and organize case files.</li>
+            <li>Coordinate with court personnel and clients.</li>
+         </ul>
+         
+
+
+         <!--Second Section-->
+         <h5 class="mb-4 word-color">LEGAL INTERN; GEORGE KUNDA & COMPANY - JULY-AUGUST 2023</h5>
+         <br>
+          <h5>My responsibilities were:</h5>
+          <ul>
+            <li>Drafting of various legal documents</li>
+            <li>Preparing and filing of documents to court</li>
+            <li>Legal research and legal opinion</li>
+            <li>Drafting and analysing commmercial agreements</li>
+          </ul>
+
+        <!--Third Section-->
+        <h5 class="mb-4 word-color">ADMINISTRATIVE ASSISTANT;MDSTUDIO - 2018-2022</h5>
+        <div class="row">
+          <p>MdStudio is a graphic design and print business. Here I gained vast computer skill involving design and graphics. </p>
+        </div>
+       <br>
+       <br>
+       <h1 class="display-5 mb-5">Education</h1>
+        <!--First Section-->
+        <h5 class="mb-4 word-color">UNIVERSITY OF LUSAKA,LUSAKA ZAMBIA - LLB 2024</h5>
+        The University of Lusaka provided me with a comprehensive understanding of the law and various systems that exist around it. I learned
+        how the law and various systems that exist around it. I learned how the law interacts with the arms government while also regulating behavior and prescribing conduct. I managed to get a credit score from
+        my performance. Refer to my transcript to check the courses I did.
+
+        <br>
+        <br>
+        <br>
+        <!--Second Section-->
+        <h5 class="mb-4 word-color">OLYMPIA PARK SECONDARY SCHOOL - 2013-2018</h5>
+        <p>At Olympia secondary School I had the life-changing opportunity to finish 
+          my high school education at a well-recognized government institution, I 
+          got the opportunity to gain experience in various subjects under the ECZ 
+          curriculum, which exposed me to various cultures and experiences.</p>
+
+        <h1 class="display-5 mb-5">Skills</h1>
+        <ul>
+          <li>Legal writing and Analysis</li>
+          <li>Legal drafting skills</li>
+          <li>Team player</li>
+          <li>Good Communication</li>
+        </ul>
+        
+        <br>
+        <br>
+        <h1 class="display-5 mb-5">Additional Qualification</h1>
+        <h5 class="mb-4 word-color">ZRA TAX APPRECIATION COURSE</h5>
+        <p>In this course, I arquired a fundamental understanding of the various tax types administered by ZRA. I gained basic knowledge of ZRA tax processes, which enhanced my comprehension of how taxes in Zambia work.</p>
+        <a style="border-radius: 20px" target="_blank" class="btn btn-outline-info" href="./pdf/6030331461FS (1)_240813_180242.pdf">Print Certificate</a>
+
+        <!-- <h1 class="display-5 mb-5">References</h1>
+        Mr Cephas mutakwa<br>
+        Chief Executive officer <br>
+        MDstudio <br>
+        Cell : 0966759967<br><br>
+        Miss Lumbiwe mwanza<br>
+        Unilus lecturer <br>
+        Email:lmwanza@unilus.ac.zm<br> -->
+
+    </section>
+    <!-- Skills End -->
+
+   <!-- Testimonial Start -->
+                <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="title pb-3 mb-5">References</h1>
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-left">
+                            <i class="fa fa-3x fa-quote-left mb-4 word-color"></i>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid" src="./icons/person-circle.svg" style="width: 60px; height: 60px; border-radius:4px">
+                                <div class="ps-3">
+                                    <p class="fs-5 mb-1 word-color">Mr Cephas mutakwa</p>
+                                    <i>Chief Executive officer</i><br>
+                                    <i>MDstudio</i><br>
+                                    <i>Cell:0966759967</i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-left">
+                            <i class="fa fa-3x fa-quote-left mb-4 word-color"></i>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid" src="./icons/person-circle.svg" style="width: 60px; height: 60px; border-radius:4px">
+                                <div class="ps-3">
+                                    <p class="fs-5 mb-1 word-color">Miss Lumbiwe mwanza</p>
+                                    <i>Unilus Lecturer</i><br>
+                                    <i>Email:lmwanza@unilus.ac.z</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Testimonial End -->
+
+                
+
+                <!-- Contact Start -->
+                <section class="py-5 wow fadeInUp" data-wow-delay="0.1s" id="contact">
+                    <h1 class="title pb-3 mb-5">Contact Me</h1>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control border-0 bg-secondary" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control border-0 bg-secondary" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control border-0 bg-secondary" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control border-0 bg-secondary" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <a style="background-color: #00ccff; color:white;" href="mailto:francissichone90@gmail.com" class="btn w-100 py-3 ">Send Message</a>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+                <!-- Contact End -->
+
+                <!-- Footer Start -->
+                <section class="wow fadeIn" data-wow-delay="0.1s">
+                    <div class="bg-secondary text-light text-center p-5">
+                        <div class="d-flex justify-content-center mb-4">
+                            <a class="btn btn-dark btn-square mx-1" href="https://x.com/sichonefrancis?s=21"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-square mx-1" href="https://www.facebook.com/share/1HSx6C7fbgfZNHaZ/?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-square mx-1" href="https://www.linkedin.com/in/mpande-sichone-5777971b2?original_referer=https%3A%2F%2Fzm%2Elinkedin%2Ecom%2F&originalSubdomain=zm"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-dark btn-square mx-1" href="https://www.instagram.com/sichonejr/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <p class="m-0">&copy; Francis Sichone's Resume All Rights Reserved. Developed at <a target="_blank" href="https://chishibes-organization.web.app"><span style="color:#00ccff">Chishibe’s Organization</span></a>.</p>
+                    </div>
+                </section>
+                <!-- Footer End -->
+            </div>
+        </div>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+    
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+
+ <script src="./firebase.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Main Javascript -->
+        <script src="js/main.js"></script>
+</body>
 </html>
