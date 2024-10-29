@@ -13,6 +13,23 @@ background-color: #8c06da;
 color: white;
 border-color: #8c06da;
 }
+.btn-outline-primary{
+    color: #8c06da;
+    border-color: #8c06da;
+}
+.btn-outline-primary:hover{
+    color: #ffffff;
+    border-color: #da0657;
+    background-color: #da0657;
+    border-style: none;
+}
+.services-button{
+    margin-left: 80px;
+}
+.setup-photo-card{
+    width: 420px;
+    height: 250px;
+}
 
 
 /*** Spinner ***/
