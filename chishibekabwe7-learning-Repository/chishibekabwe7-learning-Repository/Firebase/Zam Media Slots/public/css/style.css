@@ -58,6 +58,9 @@ margin-top: 20px;
 .background-color{
     background-color: #8c06da;
 }
+.price-box{
+    margin-left: 175px;
+}
 @-webkit-keyframes sk-rotateplane {
     0% {
         -webkit-transform: perspective(120px)
