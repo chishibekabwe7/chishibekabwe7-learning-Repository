@@ -59,7 +59,8 @@ margin-top: 20px;
     background-color: #8c06da;
 }
 .price-box{
-    margin-left: 175px;
+    display: flex;
+    justify-content: center;
 }
 @-webkit-keyframes sk-rotateplane {
     0% {
