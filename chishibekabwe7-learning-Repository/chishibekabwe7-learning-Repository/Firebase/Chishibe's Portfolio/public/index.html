@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Google tag start (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W489J1T689"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W489J1T689');
+</script>
+<!--Google tag ends-->
+    <!-- Firebase App and Analytics SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js"></script>
+    <!--Favicon-->
+    <link rel="icon" href="./assets/images/favicon.PNG">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chishibe's Portfolio</title>
+    <meta name="description"
+        content="A modular, responsive & minimalist Link in bio theme built with Bootstrap 5. Easy to deploy & easy to edit. Ideal for mobile & social media use." />
+    <meta name="keywords" content="The best link in bio template" />
+    <meta name="author" content="https://themes.jperez.ca/" />
+    <link rel="shortcut icon" href="assets/images/icon.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">Loading...</div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg custom-nav">
+        <div class="container" style="max-width: 680px">
+
+            <button class="navbar-toggler ms-auto" type="button" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <li class="nav-item form-check form-switch">
+                    <input class="nav-link form-check-input" type="checkbox" onchange="toggle()"
+                        id="flexSwitchCheckDefault">
+                </li>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" id="main_nav">
+                    <li class="nav-item form-check form-switch">
+                        <input class="nav-link form-check-input" type="checkbox" onchange="toggle()"
+                            id="flexSwitchCheckDefault">
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="max-width: 680px" id="header-section">
+        <div class="col-lg-12">
+            <div class="mt-0">
+                <img  class="rounded-circle img-fluid mx-auto d-block" src="assets/images/profile.png"
+                    alt="Profile Picture">
+            </div>
+
+            <div class="header-content text-center mx-auto">
+                <h4 class="custom-text-color-primary header-text mb-2 mt-3">MY DEVELOPER PORTFOLIO</h4>
+                <p class="custom-text-color-secondary subheader-text mb-2">I'm <span class="element"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="max-width: 680px" id="main-buttons">
+         <div class="mt-3 pt-2">
+            <a href="https://chishibes-organization.web.app/" style="width: 100%" class="btn btn-round btn-custom">CHISHIBE'S ORGANIZATION <i
+                    class="bi bi-app text-primary"></i></a>
+        </div>
+         <div class="mt-3 pt-2">
+            <a href="https://major-s-electronic-hub.web.app/" style="width: 100%" class="btn btn-round btn-custom">MAJOR'S ELECTRONIC HUB <i
+                    class="bi bi-app text-primary"></i></a>
+        </div>
+         <div class="mt-3 pt-2">
+            <a href="https://kay-graphics.web.app/" style="width: 100%" class="btn btn-round btn-custom">KAY GRAPHICS <i
+                    class="bi bi-app text-primary"></i></a>
+        </div>
+         <div class="mt-3 pt-2">
+            <a href="https://b-dangerous-empire-414b1.web.app/" style="width: 100%" class="btn btn-round btn-custom">MUSIC SITE <i
+                    class="bi bi-app text-primary"></i></a>
+        </div>
+         <div class="mt-3 pt-2">
+            <a href="https://kat-kat-5ec4a.web.app/" style="width: 100%" class="btn btn-round btn-custom">MUSIC SITE 2.0 <i
+                    class="bi bi-app text-primary"></i></a>
+        </div>
+        <div class="mt-3 pt-2">
+            <a href="https://zam-media-slots.web.app/" style="width: 100%" class="btn btn-round btn-custom">ZAM MEDIA SLOTS <i
+                class="bi bi-app text-primary"></i></a>
+        </div>
+        <div class="mt-3 pt-2">
+            <a href="https://sichones-resume.web.app/" style="width: 100%" class="btn btn-round btn-custom">SICHONE'S RESUME <i
+                class="bi bi-app text-primary"></i></a>
+        </div>
+        <div class="mt-3 pt-2">
+            <a href="index_square.html" style="width: 100%" class="btn btn-round btn-custom">MY MAIN RESUME <i
+                    class="bi bi-app text-primary"></i></a>
+        </div>
+        <div class="mt-3 pt-2">
+            <a href="https://chishibekabwe24-resume.web.app/" style="width: 100%" class="btn btn-round btn-custom">MY RESUME CONCEPT <i
+                    class="bi bi-app text-primary"></i></a>
+        </div>
+        <div class="mt-3 pt-2">
+            <a href="https://chishibekabwe7-resume.web.app/" style="width: 100%" class="btn btn-round btn-custom">MY RESUME CONCEPT 2 <i
+                    class="bi bi-app text-primary"></i></a>
+        </div>
+        <div class="mt-3 pt-2">
+               <a href="https://chishibes-studio-x.web.app/" style="width: 100%" class="btn btn-round btn-custom">CHISHIBE'S STUDIO X <i
+                       class="bi bi-app text-primary"></i><br></a>
+                      
+        </div>
+            
+            
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title custom-text-color-primary" id="exampleModalLabel">Contact Me 📨</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mt-2">
+                        <div class="col-lg-12">
+                            <div class="form-treelink contact_form">
+                                <div id="message"></div>
+                                <form method="post" action="assets/php/contact.php" name="contact-form"
+                                    id="working_form">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group mt-2">
+                                                <input name="name" id="name" type="text" class="form-control"
+                                                    placeholder="Name...">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group mt-2">
+                                                <input name="email" id="email" type="email" class="form-control"
+                                                    placeholder="Email Address...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group mt-2">
+                                            <input type="text" class="form-control" id="subject"
+                                                placeholder="Subject..." />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="form-group mt-2">
+                                                <textarea name="comments" id="comments" rows="4" class="form-control"
+                                                    placeholder="Message..."></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 text-center mt-3 mb-4">
+                                            <button type="button" style="width: 30%;" class="btn btn-round btn-custom"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <input type="reset" id="reset" name="reset"
+                                                class="resetBnt btn btn-round btn-custom" value="Clear">
+                                            <input type="submit" style="width: 30%;" id="submit" name="send"
+                                                class="submitBnt btn btn-round btn-custom" value="Send">
+                                            <div id="simple-msg"></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="footer">
+        <div class="col-md-12">
+            <div class="mb-4 text-center">
+                <div>
+                    <ul class="about-social list-inline mt-5 text-center">
+                        <li class="list-inline-item"><a href="https://www.instagram.com/chishibe_kabwe24/" target="_blank"><i class="bi bi-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://twitter.com/ChishibeKabwe24" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://www.threads.net/@chishibe_kabwe24" target="_blank"><i class="bi bi-threads"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://www.tiktok.com/@chishibe_kabwe24?_r=1&_d=eekkakfa8f0j5b&sec_uid=MS4wLjABAAAAXudNXizslnaBzi19LYGLzMC0W-zQC5vl3etM3v4XKTe4WX0bAzYh79I5mHo36VS2&share_author_id=6821643344134718470&sharer_language=en&source=h5_m&u_code=dc6bccc7mle1f4&ug_btm=b8727,b0&social_share_type=4&utm_source=copy&sec_user_id=MS4wLjABAAAAXudNXizslnaBzi19LYGLzMC0W-zQC5vl3etM3v4XKTe4WX0bAzYh79I5mHo36VS2&tt_from=copy&utm_medium=ios&utm_campaign=client_share&enable_checksum=1&user_id=6821643344134718470&share_link_id=247083FC-C818-4890-B5D7-0C0088FB3669&share_app_id=1233" target="_blank"><i class="bi bi-tiktok"></i></a></li>
+                        <li class="list-inline-item"><a href="https://github.com/chishibekabwe7" target="_blank"><i class="bi bi-github"></i></a></li>
+                        <li class="list-inline-item"><a href="https://stackoverflow.com/users/21120957/" target="_blank"><i class="bi bi-stack-overflow"></i></a></li>
+                        <li class="list-inline-item"><a href="https://web.facebook.com/chishibe.cbkabwe.1" target="_blank"><i class="bi bi-meta"></i></a></li>
+                    </ul>
+                </div>
+                <p class="custom-text-color-secondary footer-text mb-5 mt-3">©2024 | Chishibe's Portfolio | All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <a href="#home" class="back_top" style="border-radius: 50%;"><i class="bi bi-chevron-up"></i></a>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/firebase.js"></script>
+    <script>
+        var typed = new Typed('.element', {
+            strings: ["An Aspiring Software Developer/Engineer", "Aspiring Data Analyst/Scientist", "Aspiring Entrepreneur/Invester"],
+            typeSpeed: 40,
+            backSpeed: 40,
+            backDelay: 1600,
+            loop: true
+        });
+    </script>
+    <link id="style1" rel="stylesheet" type="text/css" href="assets/css/colors/light-mode.css" />
+    <link id="style2" rel="stylesheet" type="text/css" href="assets/css/colors/dark-mode.css" disabled="disabled" />
+    <script type="text/javascript">
+        function toggle() {
+            var el = document.getElementById("style1");
+            if (el.href.match("assets/css/colors/light-mode.css")) {
+                el.href = "assets/css/colors/dark-mode.css";
+            }
+            else {
+                el.href = "assets/css/colors/light-mode.css";
+            }
+        }
+    </script>
+</body>
