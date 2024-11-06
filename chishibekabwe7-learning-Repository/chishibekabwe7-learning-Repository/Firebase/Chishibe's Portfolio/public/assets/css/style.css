@@ -1,0 +1,306 @@
+/* 
+* Author           : Kabwe Chishibe
+* Version          : 2.0.2
+* Updated          : November 2024
+* File Description : Main CSS file -------------------------------  */
+
+/*===================================
+    Bootstrap Icons v1.11.1 - New Icons
+=====================================*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+/*===================================
+    Custom Google Fonts - Edit the line below to choose another font - (of the 5 ones included in this theme).
+    All font files located in "assets/css/font/font-family"
+=====================================*/
+@import "/assets/fonts/font-family/font-1.css";
+
+/*===================================
+    Header CSS
+=====================================*/
+.rounded-circle {
+    width: 120px;
+    height: 120px;
+    /* box-shadow: 2px 5px 12px rgba(0,0,0,50%); */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.header-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subheader-text {
+    font-size: 18px;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+/*===================================
+    Text Selection CSS
+=====================================*/
+::selection {
+    background: rgba(166, 175, 189, 0.3);
+}
+
+::-moz-selection {
+    background: rgba(166, 175, 189, 0.3);
+}
+
+/*===================================
+    Preloader CSS
+=====================================*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 9999999;
+}
+
+#status {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+}
+
+.spinner {
+    margin: 0 auto;
+    font-size: 10px;
+    position: relative;
+    text-indent: -9999em;
+    border-top: 5px solid rgba(0, 0, 0, 0.2);
+    border-right: 5px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+    border-left: 5px solid #000;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: load8 1.1s infinite linear;
+}
+
+.spinner,
+.spinner:after {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+@-webkit-keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+/*===================================
+    BG Video Player CSS
+=====================================*/
+.bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .bg-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .bg-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+/*===================================
+    Navbar
+=====================================*/
+.custom-nav {
+    color: chocolate;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.custom-nav .navbar-nav li a {
+    color: #606060 !important;
+    font-size: 14px;
+    background-color: transparent !important;
+    margin-top: 8px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    transition: all 0.5s;
+    font-weight: 700;
+}
+
+/*===================================
+    Main Buttons CSS
+=====================================*/
+.btn-round {
+    border-radius: 30px;
+}
+
+.btn-custom {
+    padding: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open>.dropdown-toggle.btn-custom {
+    font-weight: 500;
+}
+
+/*===================================
+    Social Icons CSS
+=====================================*/
+.about-social li a {
+    align-items: center;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.about-social {
+    text-align: center;
+}
+
+/*============================
+    Back To Top CSS 
+=============================*/
+.back_top {
+    text-align: center;
+    position: fixed;
+    bottom: 15px;
+    height: 35px;
+    width: 35px;
+    display: none;
+    z-index: 10000;
+    border-radius: 3px;
+    right: 20px;
+    transition: all 0.5s;
+}
+
+.back_top i {
+    line-height: 35px;
+    font-size: 22px;
+    display: block;
+}
+
+/*=========================
+    Contact Form CSS
+===========================*/
+.form-treelink .form-control {
+    box-shadow: none !important;
+    height: 50px;
+    margin-bottom: 14px;
+    border: 2px solid #e0e0e0;
+}
+
+.form-treelink textarea.form-control {
+    height: auto;
+}
+
+.contact_detail-title {
+    font-size: 18px;
+}
+
+.error {
+    margin: 8px 0px;
+    display: none;
+    color: #ec5f79;
+}
+
+.error_msg {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #ec5f79;
+    font-weight: 700;
+}
+
+.gig_loader {
+    display: none;
+}
+
+#success_msg {
+    color: #606060;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#success_msg h3 {
+    color: #64d674;
+    font-size: 22px;
+}
+
+/*==========================
+    Toogle Switch CSS
+============================*/
+.form-check {
+    font-size: 26px;
+    display: block;
+    min-height: 1.5rem;
+    margin-top: 4px;
+}
+
+/*==========================
+    Modal CSS
+============================*/
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+}
+
+.modal-content {
+    padding: 16px;
+}
