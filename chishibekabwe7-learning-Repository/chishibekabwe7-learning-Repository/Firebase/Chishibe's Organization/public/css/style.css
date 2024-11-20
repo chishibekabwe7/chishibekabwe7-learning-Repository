@@ -5,6 +5,11 @@
     --light: #F8F8F8;
     --dark: #494747;
 }
+.about-us-picture{
+    border-radius: 6px;
+    width:550px;
+    height:450px;
+}
 .back-to-top {
     position: fixed;
     display: none;
