@@ -30,7 +30,53 @@
     display:flex;
     justify-content: center;
 }
-
+.main-button {
+border-radius: 23px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: white;
+	font-weight: bold;
+	background-color: rgb(12, 12, 12);
+    border-color: #a000c8;
+	color: #a000c8;
+	margin-bottom: 20px;
+    border-style: solid;
+	border-width: 1px;
+	
+}
+.portfolio-button{
+	border-radius: 23px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 70px;
+	padding-right: 70px;
+	color: white;
+	font-weight: bold;
+	background-color: #a000c8;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+}
+.portfolio-button:hover{
+	background-color: rgb(255, 0, 85);
+    border-color: rgb(255, 0, 85);
+    box-shadow: 3px 3px 29px rgba(255, 0, 85, 10);
+	transition: 0.8s;
+    color:white;
+}
+.portfolio-button:active{
+	background-color: rgb(255, 0, 85);
+    border-color: rgb(255, 0, 85);
+    box-shadow: 3px 3px 29px rgba(255, 0, 85, 10);
+    transform: translateY(-2px);
+    color:white;
+}
+.portfolio-button a {
+	text-decoration: none;
+	color:inherit;
+}
 
 /*** Spinner ***/
 #spinner {
